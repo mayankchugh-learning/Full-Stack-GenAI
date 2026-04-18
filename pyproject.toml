@@ -13,4 +13,10 @@ dependencies = [
     "nltk>=3.8.1",
     "jupyter>=1.0.0",
     "ipykernel>=6.29.0",
+    "sentence-transformers>=5.4.1",
+    "python-dotenv>=1.0.1",
+    "langchain-google-genai>=4.2.2",
+    "langchain-openai>=1.1.14",
+    "pillow>=10.0.0",
+    "matplotlib>=3.8.0",
 ]
