@@ -1,0 +1,35 @@
+Excel
+
+https://docs.google.com/spreadsheets/d/1M7Dyr5EjDwu9EHIL5hvSJBmIQXifGH8QavIo_tbh8gk/htmlview?usp=sharing&pru=AAABnV4bqLk*lEZIACDNvHZ-zT7-uvVvAQ
+
+github
+https://github.com/sunnysavita10/Full-Stack-GenAI-Bootcamp-1.0
+
+Notion
+https://www.notion.so/Class-01-Intro-GenAI-LLMs-331893f0ead0801faf10cde239077308
+
+https://claude.ai/public/artifacts/3664345c-1156-401c-abdd-902ea175a9a3
+
+<iframe src="https://claude.site/public/artifacts/3664345c-1156-401c-abdd-902ea175a9a3/embed" title="Claude Artifact" width="100%" height="600" frameborder="0" allow="clipboard-write" allowfullscreen></iframe>
+
+Holidays
+https://docs.google.com/spreadsheets/d/1M7Dyr5EjDwu9EHIL5hvSJBmIQXifGH8QavIo_tbh8gk/htmlview?usp=sharing&pru=AAABnV4bqLk*lEZIACDNvHZ-zT7-uvVvAQ
+
+sunny savita email id
+snshrivas365@gmail.com
+
+uvx --from mcpdoc mcpdoc \
+    --urls "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt" "LangChain:https://python.langchain.com/llms.txt" \
+    --transport sse \
+    --port 8082 \
+    --host localhost
+	
+	
+uvx --from mcpdoc mcpdoc --urls "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt" "LangChain:https://python.langchain.com/llms.txt" --transport sse --port 8082 --host localhost
+
+cd C:\githunb\mcp-servers\official-mcpdoc
+uv sync
+uv run mcpdoc --urls "LangGraph:https://langchain-ai.github.io/langgraph/llms.txt" "LangChain:https://python.langchain.com/llms.txt" --transport sse --port 8082 --host localhost
+
+
+https://huggingface.co/sentence-transformers

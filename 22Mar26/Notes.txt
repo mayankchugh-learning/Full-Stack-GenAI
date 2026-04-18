@@ -1,0 +1,236 @@
+Below are structured, concise notes covering both topics. The focus is on clarity and practical relevance.
+
+---
+
+# 1. Environment / Setup Installation
+
+## Objective
+
+Prepare a working development environment for AI/ML or Generative AI tasks.
+
+## Core Components
+
+### a. Programming Language
+
+* **Python (preferred)**
+
+  * Widely used in AI/ML ecosystem
+  * Rich library support
+
+### b. IDE / Code Editor
+
+* Visual Studio Code
+
+  * Lightweight and extensible
+  * Recommended extensions:
+
+    * Python
+    * Jupyter
+    * Pylance
+
+Alternative:
+
+* PyCharm (more feature-rich)
+
+---
+
+### c. Package Manager & Environment
+
+* **pip** (default Python package manager)
+* **virtualenv / venv**
+
+  * Isolated environments per project
+* Optional:
+
+  * Anaconda
+
+    * Includes conda package manager
+    * Easier dependency handling
+
+---
+
+### d. Key Libraries to Install
+
+Basic stack:
+
+```
+pip install numpy pandas matplotlib seaborn
+```
+
+ML/AI:
+
+```
+pip install scikit-learn tensorflow torch
+```
+
+Generative AI specific:
+
+```
+pip install openai transformers langchain
+```
+
+---
+
+### e. Notebook Environment
+
+* Jupyter Notebook
+
+  * Ideal for experimentation and learning
+* Alternative:
+
+  * JupyterLab (more advanced UI)
+
+---
+
+### f. Version Control
+
+* Git
+* GitHub
+
+  * Track code changes
+  * Collaborate and share projects
+
+---
+
+### g. Typical Setup Workflow
+
+1. Install Python
+2. Install VS Code
+3. Install Git
+4. Create virtual environment
+5. Install required libraries
+6. Run test script / notebook
+
+---
+
+# 2. Introduction to Generative AI (Basic Concepts)
+
+## What is Generative AI?
+
+Generative AI refers to models that can **create new content** such as:
+
+* Text
+* Images
+* Audio
+* Code
+
+Unlike traditional AI (which predicts or classifies), generative AI **produces new data**.
+
+---
+
+## Key Idea
+
+Learn patterns from existing data → generate similar but new outputs.
+
+---
+
+## Types of Generative Models
+
+### a. Large Language Models (LLMs)
+
+* Example: GPT
+* Used for:
+
+  * Chatbots
+  * Content generation
+  * Code assistance
+
+---
+
+### b. Image Generation Models
+
+* Example: DALL·E
+* Convert text → images
+
+---
+
+### c. Other Models
+
+* GANs (Generative Adversarial Networks)
+* VAEs (Variational Autoencoders)
+
+---
+
+## How It Works (Simplified)
+
+### Step 1: Training
+
+* Model learns patterns from large datasets
+
+### Step 2: Prompt/Input
+
+* User provides input (text, instruction)
+
+### Step 3: Generation
+
+* Model predicts next elements and generates output
+
+---
+
+## Important Concepts
+
+### Tokens
+
+* Smallest units of text (words/subwords)
+
+### Prompt
+
+* Input given to model
+* Quality of prompt affects output quality
+
+### Temperature
+
+* Controls randomness:
+
+  * Low → deterministic
+  * High → creative
+
+---
+
+## Common Use Cases
+
+* Content writing
+* Chatbots / assistants
+* Code generation
+* Image creation
+* Data augmentation
+
+---
+
+## Limitations
+
+* May produce incorrect information (hallucinations)
+* Bias from training data
+* Requires careful prompt design
+
+---
+
+## Simple Example
+
+Prompt:
+
+> "Write a story about space exploration"
+
+Output:
+
+* AI generates a unique story based on learned patterns
+
+---
+
+## Summary
+
+Environment setup ensures:
+
+* You can **build and run AI applications**
+
+Generative AI enables:
+
+* Machines to **create content**, not just analyze data
+
+---
+
+If you want, I can convert these into:
+
+* Quick revision notes (1-page)
+* Hands-on setup guide (step-by-step with screenshots)
+* Interview-focused Q&A version
