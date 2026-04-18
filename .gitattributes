@@ -1,0 +1,2 @@
+# Normalize text files so Git/Cursor on Windows do not spam LF/CRLF warnings
+* text=auto
