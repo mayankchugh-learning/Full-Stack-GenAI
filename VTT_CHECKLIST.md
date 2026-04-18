@@ -21,7 +21,7 @@ Use this file as the **single place** to track whether each session transcript e
 
 | Folder | Transcript filename | On disk | Notes file (suggested) | Converted | Done |
 |--------|---------------------|---------|-------------------------|-----------|------|
-| `15Mar26` | `session_Recording.cutfile.20260316041451852.transcript.vtt` | [x] | `Notes.md` or `15Mar26_transcript_notes.md` | [ ] | [ ] |
+| `15Mar26` | `session_Recording.cutfile.20260316041451852.transcript.vtt` | [x] | `Notes.md` or `15Mar26_transcript_notes.md` | [x] | [ ] |
 | `22Mar26` | `Recording.transcript.vtt` | [x] | `Notes.md` or `22Mar26_transcript_notes.md` | [ ] | [ ] |
 | `28Mar26` | `Session_Recording.cutfile.20260329093221035.transcript.vtt` | [x] | `Notes.md` or `28Mar26_transcript_notes.md` | [ ] | [ ] |
 | `29Mar26` | `modern _Recording.transcript.vtt` | [x] | `Notes.md` or `29Mar26_transcript_notes.md` | [ ] | [ ] |

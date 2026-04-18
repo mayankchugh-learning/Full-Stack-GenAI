@@ -1,5 +1,16 @@
 # Full-Stack GenAI Bootcamp - environment setup
 
+## Course links
+
+| Resource | Link |
+|----------|------|
+| **Excel / schedule (Google Sheet)** | [Open spreadsheet](https://docs.google.com/spreadsheets/d/1M7Dyr5EjDwu9EHIL5hvSJBmIQXifGH8QavIo_tbh8gk/htmlview?usp=sharing&pru=AAABnV4bqLk*lEZIACDNvHZ-zT7-uvVvAQ) |
+| **GitHub** (course materials repo) | [sunnysavita10/Full-Stack-GenAI-Bootcamp-1.0](https://github.com/sunnysavita10/Full-Stack-GenAI-Bootcamp-1.0) |
+| **Notion** (e.g. Class 01 — Intro, GenAI, LLMs) | [Notion page](https://www.notion.so/Class-01-Intro-GenAI-LLMs-331893f0ead0801faf10cde239077308) |
+| **Holidays** (same Google Sheet as schedule) | [Open spreadsheet](https://docs.google.com/spreadsheets/d/1M7Dyr5EjDwu9EHIL5hvSJBmIQXifGH8QavIo_tbh8gk/htmlview?usp=sharing&pru=AAABnV4bqLk*lEZIACDNvHZ-zT7-uvVvAQ) |
+
+---
+
 ## Prerequisites
 
 - **Python:** 3.11+ for most notebooks. The **`28Mar26/class`** project declares **`>=3.13`** in `pyproject.toml`; use Python 3.13 there if the resolver complains.
