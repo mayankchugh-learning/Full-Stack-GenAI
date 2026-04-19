@@ -150,6 +150,71 @@ window.BOOTCAMP_SESSION_QUIZ = {
           rationale:
             "Induction notes emphasize projects and skills over certificate collection, with optional employer documentation on request.",
         },
+        {
+          prompt:
+            "When are live classes typically scheduled (IST), per the induction schedule table?",
+          choices: [
+            "Monday–Friday mornings only",
+            "Saturday and Sunday, 8:00 PM – 11:00 PM IST",
+            "Only on public holidays",
+            "Random weekdays with no fixed time",
+          ],
+          correctIndex: 1,
+          rationale:
+            "The notes list weekend evenings (Sat/Sun, 8–11 PM IST) as the usual live slot.",
+        },
+        {
+          prompt:
+            "How soon are recordings usually available on the dashboard after a live session?",
+          choices: [
+            "After 6 months",
+            "Typically within about 24 hours of each session",
+            "Never — live only",
+            "Only if you pay an extra fee",
+          ],
+          correctIndex: 1,
+          rationale:
+            "Induction states recordings are uploaded to the dashboard, often within 24 hours.",
+        },
+        {
+          prompt:
+            "How many modules does the updated syllabus overview list (including Cloud Code and extra project)?",
+          choices: [
+            "12 modules",
+            "16 modules",
+            "18 modules",
+            "24 modules",
+          ],
+          correctIndex: 2,
+          rationale:
+            "The notes say the syllabus moved from 16 to 18 modules with added Cloud Code–related content and an extra project.",
+        },
+        {
+          prompt:
+            "Which URL matches the learning dashboard stressed in the checklist (verify on your enrollment email if yours differs)?",
+          choices: [
+            "learn.krishnakacademy.com",
+            "example.com/learn",
+            "localhost:3000",
+            "A random Notion subdomain with no login",
+          ],
+          correctIndex: 0,
+          rationale:
+            "Notes point learners to log in at learn.krishnakacademy.com with enrollment credentials.",
+        },
+        {
+          prompt:
+            "During the live lecture, what was described about audio from students?",
+          choices: [
+            "Open mic for everyone at all times",
+            "One-way audio from instructors during the main lecture (no open mic mid-lecture)",
+            "Voice chat only via Discord",
+            "No audio — text-only forever",
+          ],
+          correctIndex: 1,
+          rationale:
+            "Session behavior notes describe one-way instructor audio during class to reduce noise, with doubt clearing after.",
+        },
       ],
     },
 

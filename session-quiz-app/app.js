@@ -65,6 +65,13 @@
   }
 
   function renderHome() {
+    try {
+      if (window.location.search) {
+        window.history.replaceState(null, "", window.location.pathname);
+      }
+    } catch {
+      /* ignore */
+    }
     els.sessionList.innerHTML = "";
     const storedAll = loadStorage();
     for (const m of data.manifest) {
@@ -210,5 +217,23 @@
     return d.innerHTML;
   }
 
-  renderHome();
+  function applySessionFromQuery() {
+    try {
+      const sid = new URLSearchParams(window.location.search).get("session");
+      if (!sid || !getQuizForSession(sid)) {
+        renderHome();
+        return;
+      }
+      const meta = data.manifest.find((x) => x.id === sid);
+      if (!meta || meta.status !== "live") {
+        renderHome();
+        return;
+      }
+      startQuiz(sid);
+    } catch {
+      renderHome();
+    }
+  }
+
+  applySessionFromQuery();
 })();

@@ -67,6 +67,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 - [x] Tie this session to a topic in your course timeline (intro, tools, etc.) in one sentence.
 - [x] **Session understanding:** Read [`Notes.md`](15Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
+- [x] **Session quiz (self-check):** Optional quiz in [`session-quiz-app/`](session-quiz-app/) for `15mar26` — **you confirmed completion** (Apr 2026).
 
 **`.vtt` → notes (keep original `.vtt`)**
 

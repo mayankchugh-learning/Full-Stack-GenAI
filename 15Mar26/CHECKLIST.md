@@ -14,6 +14,7 @@ Mirror of this folder’s section in the repo **[`LEARNING_CHECKLIST.md`](../LEA
 
 - [x] Tie this session to a topic in your course timeline (intro, tools, etc.) in one sentence.
 - [x] **Session understanding:** Read [`Notes.md`](Notes.md); expand it if needed until you can summarize the session without the recording.
+- [x] **Session quiz (self-check):** Completed the optional induction quiz in [`../session-quiz-app/`](../session-quiz-app/) (`?session=15mar26` or pick **15 Mar — Induction** on the list). _You confirmed — Apr 2026._
 
 ## `.vtt` → notes (keep original `.vtt`)
 
