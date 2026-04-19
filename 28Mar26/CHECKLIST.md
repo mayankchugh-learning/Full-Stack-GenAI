@@ -36,4 +36,4 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 | --------------- | --------------- | ---------- | ---------------- |
-| `Session_Recording.cutfile.20260329093221035.transcript.vtt` | [`Notes.md`](Notes.md) | [x] | [ ] |
+| `Session_Recording.cutfile.20260329093221035.transcript.vtt` | [`Notes.md`](Notes.md) | [x] | [x] |

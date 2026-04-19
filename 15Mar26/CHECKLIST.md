@@ -19,4 +19,4 @@ Mirror of this folder’s section in the repo **[`LEARNING_CHECKLIST.md`](../LEA
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `session_Recording.cutfile.20260316041451852.transcript.vtt` | _e.g._ `15Mar26_transcript_notes.md` | [x] | [x] |
+| `session_Recording.cutfile.20260316041451852.transcript.vtt` | [`Notes.md`](Notes.md) | [x] | [x] |

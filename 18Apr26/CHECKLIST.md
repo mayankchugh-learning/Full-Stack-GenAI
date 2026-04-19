@@ -8,24 +8,23 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 
 ## Files
 
-- [x] [`Notes.md`](Notes.md) _(placeholder — expand when you add session materials)_
-- [ ] _(add a bullet per file as you add them — match [`../INVENTORY.md`](../INVENTORY.md))_
+- [x] [`Notes.md`](Notes.md)
+- [x] [`SOTA-llm-embedding.ipynb`](SOTA-llm-embedding.ipynb)
+- [x] [`Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb`](Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb) _(duplicate path — same notebook)_
+- [x] [`Class-08-18-Apr-Notion-Notes.pdf`](Class-08-18-Apr-Notion-Notes.pdf)
+- [x] [`Class-08-18-Apr-Hand-written-notes.pdf`](Class-08-18-Apr-Hand-written-notes.pdf)
+- [x] [`images.jpg`](images.jpg)
+- [x] `_Recording.transcript.vtt` _(local; `*.vtt` gitignored)_
 
 ## Mastery tasks
 
-- [ ] Name the session topic (one line) once you have the materials.
+- [ ] Name the session topic (one line) once you have the materials — _starter in [`Notes.md`](Notes.md)._
 - [ ] Work through each notebook or PDF you add; note dependencies (`uv sync` / kernel).
 - [ ] Link this session to earlier units (e.g. [`../12Apr26/`](../12Apr26/) / [`../05Apr26/`](../05Apr26/)) in your own outline.
-- [ ] **Session understanding:** Read [`Notes.md`](Notes.md) (create [`../15Mar26/Notes.md`](../15Mar26/Notes.md)-style notes in this folder if missing) until you can summarize the session without the recording.
+- [ ] **Session understanding:** Read [`Notes.md`](Notes.md) until you can summarize the session without the recording.
 
-## `.vtt`
-
-| Task | Done |
-|------|------|
-| No `.vtt` on disk yet — add table row below when you add a transcript | [x] |
-
-## `.vtt` → notes *(when a transcript exists)*
+## `.vtt` → notes (keep original `.vtt`)
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
-|-----------------|-----------------|------------|-------------------|
-| _Add the exact `.vtt` filename when present_ | _e.g._ `18Apr26_transcript_notes.md` | [ ] | [ ] |
+| ---------------- | --------------- | ---------- | ---------------- |
+| `_Recording.transcript.vtt` | [`Notes.md`](Notes.md) | [x] | [x] |

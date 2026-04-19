@@ -8,14 +8,14 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 
 ## Files
 
-- [ ] `classical_word_embedding.ipynb`
-- [ ] `custom_word2vec_training.ipynb`
-- [ ] `Notes.md`
-- [ ] `Class-06-11-Apr-handwritten-notes-word2vec.pdf`
-- [ ] `Class-07-12-Apr-handwritten-notes.pdf`
-- [ ] `data/story1.txt`
-- [ ] `data/story2.txt`
-- [x] `m_Recording.transcript (1).vtt` _(present on disk)_
+- [x] `classical_word_embedding.ipynb`
+- [x] `custom_word2vec_training.ipynb`
+- [x] `Notes.md`
+- [x] `Class-06-11-Apr-handwritten-notes-word2vec.pdf`
+- [x] `Class-07-12-Apr-handwritten-notes.pdf`
+- [x] `data/story1.txt`
+- [x] `data/story2.txt`
+- [x] `m_Recording.transcript (1).vtt`
 
 ## Mastery tasks
 
@@ -29,4 +29,4 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `m_Recording.transcript (1).vtt` | _e.g._ `12Apr26_transcript_notes.md` | [ ] | [ ] |
+| `m_Recording.transcript (1).vtt` | [`Notes.md`](Notes.md) | [x] | [x] |

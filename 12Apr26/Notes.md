@@ -1,6 +1,8 @@
 # Session notes — Full Stack Generative AI & Agentic AI Bootcamp
 
-**Source:** `m_Recording.transcript (1).vtt` (live class transcript; speech-to-text often writes “Word2Vec” as “word to back,” “VirtuBag,” etc.)
+**Source:** `m_Recording.transcript (1).vtt` — content below synthesizes this transcript with the notebooks in this folder (see also [`../11Apr26/Notes.md`](../11Apr26/Notes.md) for the paired session).
+
+**ASR note:** Speech-to-text often writes “Word2Vec” as “word to back,” “VirtuBag,” etc.
 
 **Instructor:** Sunny Savita  
 

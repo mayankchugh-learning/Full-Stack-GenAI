@@ -186,7 +186,8 @@ All **files** for this folder are present; what is left is **mastery and confirm
 2. **Dependencies** — Open `class/pyproject.toml` and be able to name **at least three** dependency areas you care about (the bullet list under **`class/` — uv project** above is a guide; verify against the file).
 3. **Cross-session link** — When you work through **April** materials, tie **tokenization → vectors → transformers** and the **encoding/embedding** labs back to the roadmap and sequencing sections in this note.
 4. **Session understanding** — Re-read this document until you can **summarize the session without the recording**; add a short paragraph here if you discover gaps.
-5. **VTT row** — When satisfied with your notes, mark **You confirm done** in [`CHECKLIST.md`](CHECKLIST.md) for the transcript row (and optionally sync [`VTT_CHECKLIST.md`](../VTT_CHECKLIST.md)).
+
+_Transcript → notes row for this folder is tracked in [`CHECKLIST.md`](CHECKLIST.md) / [`VTT_CHECKLIST.md`](../VTT_CHECKLIST.md) per [`LEARNING_PROTOCOL.md`](../LEARNING_PROTOCOL.md)._
 
 ---
 

@@ -9,14 +9,14 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 ## Files
 
 - [x] `22-03-2026.zip`
-- [ ] `22-03-2026_handwritten-notes.pdf`
-- [ ] `22-03-2026/22-03-2026_notes.pdf`
+- [x] `22-03-2026_handwritten-notes.pdf`
+- [ ] `22-03-2026/22-03-2026_notes.pdf` _(not present in this clone — see extracted bundle if you have it)_
 - [ ] `22-03-2026/a.txt`
 - [ ] `22-03-2026/uv_master_guide.pdf`
-- [ ] `a.txt`
-- [ ] `Notes.txt`
-- [ ] `uv_master_guide.pdf` _(duplicate of nested copy — pick one to study)_
-- [x] `Recording.transcript.vtt` _(present on disk)_
+- [x] `a.txt`
+- [x] `Notes.txt`
+- [x] `uv_master_guide.pdf` _(duplicate of nested copy — pick one to study)_
+- [x] `Recording.transcript.vtt`
 
 ## Mastery tasks
 
@@ -29,4 +29,4 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `Recording.transcript.vtt` | _e.g._ `22Mar26_transcript_notes.md` | [x] | [ ] |
+| `Recording.transcript.vtt` | [`Notes.md`](Notes.md) | [x] | [x] |

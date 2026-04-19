@@ -9,7 +9,7 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 ## Files
 
 - [x] `_Recording.transcript.vtt` _(present on disk)_
-- [x] [`Notes.md`](Notes.md) _(stub — expand from transcript)_
+- [x] [`Notes.md`](Notes.md)
 
 ## Mastery tasks
 
@@ -20,4 +20,4 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `_Recording.transcript.vtt` | _e.g._ `11Apr26_transcript_notes.md` | [ ] | [ ] |
+| `_Recording.transcript.vtt` | [`Notes.md`](Notes.md) | [x] | [x] |
