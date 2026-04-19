@@ -98,10 +98,17 @@ uv run python -m ipykernel install --user --name bootcamp-notes
 
 ---
 
+## Session quiz app
+
+Static HTML/JS quizzes per session folder. **How to start and open:** see **[`session-quiz-app/README.md`](session-quiz-app/README.md)** (for example: `python -m http.server 8080` from the repo root, then open `http://localhost:8080/session-quiz-app/`).
+
+---
+
 ## Layout reference
 
 | Path | Notes |
 |------|--------|
+| `session-quiz-app/` | Browser quizzes; see `session-quiz-app/README.md` |
 | `pyproject.toml`, `uv.lock` (repo root) | Option B: `uv sync` for encoding + Word2Vec notebooks |
 | `28Mar26/class/` | Option A: separate `pyproject.toml` + `uv.lock`, full stack |
 | `requirements.txt` | Legacy reference only; installs go through **uv** and root `pyproject.toml` |
