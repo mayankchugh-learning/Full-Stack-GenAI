@@ -4,6 +4,8 @@ Source: `session_Recording.cutfile.20260316041451852.transcript.vtt` — **Moder
 
 This session was **induction and logistics**, not a technical deep-dive. Technical teaching starts from the **next** class (setup, tools, etc.).
 
+**Course timeline (one sentence):** This session sits in the **induction / intro** slot—orientation, logistics, and syllabus overview—before the **tools and technical** modules that follow on the course timeline.
+
 ---
 
 ## Schedule and format

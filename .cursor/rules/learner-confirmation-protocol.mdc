@@ -1,0 +1,15 @@
+---
+description: Learner vs assistant checklist rules; WebVTT→Notes workflow — follow LEARNING_PROTOCOL.md
+alwaysApply: true
+---
+
+# Learner confirmation protocol
+
+Before editing **`CHECKLIST.md`**, **`LEARNING_CHECKLIST.md`**, **`VTT_CHECKLIST.md`**, or similar checklist files in this bootcamp repo:
+
+1. **Read** [`LEARNING_PROTOCOL.md`](../../LEARNING_PROTOCOL.md) at the repository root.
+2. **WebVTT (`.vtt`):** When you find or work with a session `.vtt`, **read it**, **incorporate into that folder’s `Notes.md`**, then mark the **VTT-related row(s)** complete (**Converted?**, **You confirm done**, **Done** / **Converted** as applicable) per the **WebVTT** section in `LEARNING_PROTOCOL.md`. Do **not** use that to check off mastery / “run notebook” / personal “session understanding” lines unless the user says they completed them.
+3. **Do not** check `[x]` for: running notebooks or code, env setup you did not witness, or learner-only mastery — unless the user explicitly asks you to update after they finished.
+4. **You may** fix formatting, add unchecked `[ ]` items, and report file presence in chat without treating that as the user’s completion.
+
+When in doubt, leave completion boxes **unchecked** (except **Converted** after you actually merged the `.vtt` into `Notes.md`).

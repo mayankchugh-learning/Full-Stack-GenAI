@@ -72,6 +72,28 @@ Commands and exact order are in the **shared class document** (community); trans
 
 **Streamlit / other apps:** same pattern — e.g. `uv run streamlit run app.py` (concept: always run through UV for the project env).
 
+### UV files and commands (from `uv_master_guide.pdf`)
+
+**Two files to trust:** `pyproject.toml` is where **you** declare dependencies and project intent; **`uv.lock`** is where **uv** records exact versions and hashes so everyone gets the same environment. Do not hand-edit `uv.lock`.
+
+**Install uv (Windows):** PowerShell (admin): `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"` — or `winget install --id astral-sh.uv -e` (same idea as class `winget` path). If `uv` is not found after install, add `%USERPROFILE%\.local\bin` to **PATH**.
+
+**Handy commands:** `uv add <pkg>` (updates `pyproject.toml` and the env); `uv lock` (refresh lock without changing installed packages); `uv venv --python 3.11` (venv with a specific Python, downloads if needed). **Migrating old pip projects:** `uv pip freeze > requirements.txt` then `uv add -r requirements.txt`.
+
+**Jupyter in VS Code:** `uv add ipykernel`, then register a kernel, e.g. `uv run python -m ipykernel install --user --name="my-env" --display-name="Python (UV-Project)"`; pick that kernel in the notebook (or **Developer: Reload Window** if it does not appear). If the kernel hangs: `uv pip install --force-reinstall ipykernel`, upgrade `ensurepip`, restart VS Code.
+
+**When downloads or TLS act up (e.g. corporate proxy):** try `UV_NATIVE_TLS=true` (Windows: `set UV_NATIVE_TLS=true`). **Weird cache:** `uv cache clean`.
+
+### Five `uv` commands to actually use (starter cheat sheet)
+
+1. `uv sync` — make `.venv` match `pyproject.toml` / `uv.lock`.
+2. `uv add <package>` — add a dependency and update the project.
+3. `uv run python script.py` (or `uv run streamlit run app.py`) — run with the project environment.
+4. `uv python pin 3.12` — pin Python for the project (writes `.python-version`).
+5. `uv lock` — refresh the lock file when you need it without a full sync story (or use `uv init` when starting a new project).
+
+Adjust the list to your workflow; `uv python install 3.12` and activation scripts are still valid when you are not using `uv run` for everything.
+
 ---
 
 ## Common issues (from Q&A in session)
@@ -135,10 +157,22 @@ ChatGPT is **not** “a bag of classical ML algorithms” in the sklearn sense �
 ## Artifacts
 
 - **UV / setup guide** and command list were shared in the **community** during class; use that as the source of truth for copy-paste steps.
+- **`uv_master_guide.pdf`** (same content in `22Mar26/` and `22Mar26/22-03-2026/`): study **one** copy; the guide text above is a summary of the PDF.
+- **`22-03-2026_handwritten-notes.pdf`** and **`22-03-2026_notes.pdf`:** open in a viewer — text extraction here looked **empty** (likely scanned or image-based pages), so they are not duplicated below.
+- **`a.txt`** (root and `22-03-2026/`): identical short reminders (VS Code zoom, `winget install uv`, `uv python install`, venv activate paths); nothing extra beyond this file and the sections above.
 - LinkedIn: habit of **posting a short session summary** was suggested for visibility to recruiters.
+
+---
+
+## Course links (from `Notes.txt`)
+
+- **Bootcamp repo:** [github.com/sunnysavita10/Full-Stack-GenAI-Bootcamp-1.0](https://github.com/sunnysavita10/Full-Stack-GenAI-Bootcamp-1.0)
+- **Class 01 (Notion):** [Intro — GenAI / LLMs](https://www.notion.so/Class-01-Intro-GenAI-LLMs-331893f0ead0801faf10cde239077308)
+- **Schedule / holidays (spreadsheet):** [Google Sheet](https://docs.google.com/spreadsheets/d/1M7Dyr5EjDwu9EHIL5hvSJBmIQXifGH8QavIo_tbh8gk/htmlview?usp=sharing&pru=AAABnV4bqLk*lEZIACDNvHZ-zT7-uvVvAQ)
+- **Optional artifact (Claude):** [public artifact](https://claude.ai/public/artifacts/3664345c-1156-401c-abdd-902ea175a9a3) (same link as in `Notes.txt`; embed markup there is for HTML pages, not required here)
 
 ---
 
 ## Source
 
-Derived from `22Mar26/Recording.transcript.vtt` (Full-Stack GenAI Bootcamp session, 22 Mar 2026).
+Derived from `22Mar26/Recording.transcript.vtt` (Full-Stack GenAI Bootcamp session, 22 Mar 2026). Supplemented from `uv_master_guide.pdf`, `a.txt`, and `Notes.txt` as listed above.

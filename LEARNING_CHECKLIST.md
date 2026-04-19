@@ -65,7 +65,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Mastery tasks**
 
-- [ ] Tie this session to a topic in your course timeline (intro, tools, etc.) in one sentence.
+- [x] Tie this session to a topic in your course timeline (intro, tools, etc.) in one sentence.
 - [x] **Session understanding:** Read [`Notes.md`](15Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
@@ -109,35 +109,35 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Files (top level)**
 
-- [ ] `class-02-march-28-general discussion.pdf`
-- [ ] `live-class-notion-notes.pdf`
-- [ ] `notes.txt`
-- [ ] `test.py`
-- [x] `Session_Recording.cutfile.20260329093221035.transcript.vtt` _(present on disk)_
+- [x] `class-02-march-28-general discussion.pdf`
+- [x] `live-class-notion-notes.pdf`
+- [x] `notes.txt`
+- [x] `test.py`
+- [x] `Session_Recording.cutfile.20260329093221035.transcript.vtt`
 
 **Files (`28Mar26/class/`)**
 
-- [ ] `pyproject.toml`
-- [ ] `uv.lock`
-- [ ] `encoding-embedding.ipynb`
-- [ ] `main.py`
-- [ ] `README.md`
-- [ ] `requirements.txt`
-- [ ] `.python-version`
-- [ ] `.gitignore`
+- [x] `pyproject.toml`
+- [x] `uv.lock`
+- [x] `encoding-embedding.ipynb`
+- [x] `main.py`
+- [x] `README.md`
+- [x] `requirements.txt`
+- [x] `.python-version`
+- [x] `.gitignore`
 
 **Mastery tasks**
 
 - [ ] `cd 28Mar26/class` → `uv sync` → run `encoding-embedding.ipynb`.
-- [ ] List dependencies you care about from `pyproject.toml` (3+).
+- [ ] List dependencies you care about from `pyproject.toml` (3+) — _see [`Notes.md`](28Mar26/Notes.md) for a starter list; confirm from the file._
 - [ ] Relate this session to encoding/embedding topics from April notebooks.
 - [ ] **Session understanding:** Read [`Notes.md`](28Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
-|-----------------|-----------------|------------|-------------------|
-| `Session_Recording.cutfile.20260329093221035.transcript.vtt` | _e.g._ `28Mar26_transcript_notes.md` | [x] | [ ] |
+| --------------- | --------------- | ---------- | ---------------- |
+| `Session_Recording.cutfile.20260329093221035.transcript.vtt` | [`Notes.md`](28Mar26/Notes.md) | [x] | [ ] |
 
 ---
 

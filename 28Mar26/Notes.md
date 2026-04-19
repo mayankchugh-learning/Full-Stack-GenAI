@@ -49,7 +49,8 @@ Sunny structured material around three places (links were shared live in chat / 
 
 ## Python / environment (recap + guidance)
 
-- Prefer **Python 3.11 or 3.12** for stability; **3.13+** may hit **dependency issues** — avoid for class unless needed.
+- Prefer **Python 3.11 or 3.12** for stability in general; **3.13+** can still hit **dependency edge cases** on some machines — use what your **`pyproject.toml` / `.python-version`** in a given repo asks for.
+- The **`28Mar26/class/`** sample project in this repo pins **Python 3.13** (`requires-python >=3.13`, `.python-version`); match that with **`uv python install 3.13`** (or adjust pins locally only if you know why). Session advice and this folder’s pin can differ — **trust the project file** when running that code.
 - **VS Code** setup was in the **previous** session with Monal; Sunny pointed people there for editor/env steps.
 - **`uv python list`** (conceptually) shows installable versions; align with **`pyproject` / pin** as in the shared class docs.
 
@@ -85,7 +86,7 @@ The **blue / modern path** on the diagram = **today’s Generative AI** track:
 - After **transformer**: **LLMs**, **SLMs**, **multimodal LLMs**
 - Then: **fine-tuning**, **RAG** (including **multimodal RAG**), **agentic AI**, **LLM Ops**
 
-**Python** is described as **dominating implementation** across this stack (with **MCP** etc. called out as topics for later).
+**Python** is described as **dominating implementation** across this stack; later modules tie in deployment, APIs, and production patterns around that core.
 
 ### Data roles (where “analytics” sits)
 
@@ -107,7 +108,6 @@ The **blue / modern path** on the diagram = **today’s Generative AI** track:
   - **Data parsing** frameworks, **vector databases**, **cloud** connectivity
   - **OpenAI SDK**
   - **Guardrails**
-  - **MCP** (**Model Context Protocol**), “fast MCP” mentioned in passing
 
 Sunny showed a **long categorized list** (video + sheet): vector DB examples (e.g. **Chroma**, **pgvector**, **Supabase** named), **Haystack**, **LangSmith**, document AI / parsing tools (**Unstructured**, **PyMuPDF**, etc.), agent frameworks (**AutoGen**, **LangGraph**, **Google ADK**, etc.), cloud, eval/observability, and more — **not every item** will be taught end-to-end; **representative important tools per category** will be covered.
 
@@ -122,6 +122,36 @@ Sunny showed a **long categorized list** (video + sheet): vector DB examples (e.
 - **Why bother with theory** if Copilot can code: for **interviews**, **understanding LLMs**, and **fundamentals** for serious systems—not only notebook demos.
 
 **LLM Ops** — framed as **deploying / operating** LLM applications (alongside fine-tuning, RAG, agents).
+
+---
+
+## Materials in this folder (study + hands-on)
+
+These line up with [`CHECKLIST.md`](CHECKLIST.md) mastery tasks.
+
+### PDFs and text stubs
+
+- **`class-02-march-28-general discussion.pdf`** — General discussion / whiteboard-style companion for this session (open locally for diagrams and wording not fully captured here).
+- **`live-class-notion-notes.pdf`** — Export of **Notion** live notes (commands, links, snippets) for the same day.
+- **`notes.txt`** — Short pointer plus the **notice board** Google Sheet: [calendar / topics / holidays](https://docs.google.com/spreadsheets/d/1M7Dyr5EjDwu9EHIL5hvSJBmIQXifGH8QavIo_tbh8gk/edit).
+
+### `test.py` (optional Python warmup)
+
+- Small **`Calculator`** class with add / subtract / multiply / divide — useful to sanity-check **OOP** syntax (the course assumes Python through OOP; see prerequisites in session notes).
+
+### `class/` — uv project (encoding / embedding track)
+
+- **Purpose:** Full ML stack for upcoming **encoding, embedding, and related labs** (`encoding-embedding.ipynb`, dependencies aligned with transformers and retrieval).
+- **Setup** (from `class/README.md`):
+
+  ```powershell
+  cd 28Mar26\class
+  uv venv
+  uv sync
+  ```
+
+- **Dependencies worth knowing** (see `class/pyproject.toml`): **PyTorch** (`torch`, `torchvision`), **Hugging Face** (`transformers`, `datasets`), **sentence-transformers**, **scikit-learn**, **gensim**, **rank-bm25**, **mteb** (benchmarks), **LangChain** integrations (`langchain-openai`, `langchain-google-genai`), plus **numpy**, **scipy**, **pillow**, **ipykernel** for notebooks.
+- **`encoding-embedding.ipynb`:** In this repo it is currently a **minimal smoke test** (e.g. a simple `print`); still run it after `uv sync` to confirm the kernel and env. Deeper encoding/embedding work continues in the syllabus and related April materials — relate those notebooks back to the **tokenization → vectors → transformers** thread above.
 
 ---
 
@@ -145,6 +175,18 @@ Sunny showed a **long categorized list** (video + sheet): vector DB examples (e.
 - **JavaScript:** For **web dev**, JS ecosystem matters; for **AI-first** career, **Python** first; **React/Next** called out for front-end track.
 - **Recorded prerequisite / YouTube:** If links hit **“unusual traffic”**, try **VPN**, **incognito**, or direct **playlist** URL.
 - **Mac / UV:** Use **`pip3 install uv`** (not plain `pip`) when `pip` is wrong; **`python3`** vs **`python`** as on Mac docs.
+
+---
+
+## Remaining tasks (from [`CHECKLIST.md`](CHECKLIST.md))
+
+All **files** for this folder are present; what is left is **mastery and confirmation**:
+
+1. **Hands-on env** — From `28Mar26`, run `cd class`, then `uv sync`, then open and execute `encoding-embedding.ipynb` to confirm the kernel and environment (it is still a minimal smoke test in-repo; deeper labs follow the syllabus).
+2. **Dependencies** — Open `class/pyproject.toml` and be able to name **at least three** dependency areas you care about (the bullet list under **`class/` — uv project** above is a guide; verify against the file).
+3. **Cross-session link** — When you work through **April** materials, tie **tokenization → vectors → transformers** and the **encoding/embedding** labs back to the roadmap and sequencing sections in this note.
+4. **Session understanding** — Re-read this document until you can **summarize the session without the recording**; add a short paragraph here if you discover gaps.
+5. **VTT row** — When satisfied with your notes, mark **You confirm done** in [`CHECKLIST.md`](CHECKLIST.md) for the transcript row (and optionally sync [`VTT_CHECKLIST.md`](../VTT_CHECKLIST.md)).
 
 ---
 

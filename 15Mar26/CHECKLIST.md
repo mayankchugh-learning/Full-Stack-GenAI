@@ -12,7 +12,7 @@ Mirror of this folder’s section in the repo **[`LEARNING_CHECKLIST.md`](../LEA
 
 ## Mastery tasks
 
-- [ ] Tie this session to a topic in your course timeline (intro, tools, etc.) in one sentence.
+- [x] Tie this session to a topic in your course timeline (intro, tools, etc.) in one sentence.
 - [x] **Session understanding:** Read [`Notes.md`](Notes.md); expand it if needed until you can summarize the session without the recording.
 
 ## `.vtt` → notes (keep original `.vtt`)
