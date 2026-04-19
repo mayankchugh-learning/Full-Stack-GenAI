@@ -1,6 +1,6 @@
 # WebVTT (`.vtt`) transcript checklist
 
-Use this file as the **single place** to track whether each session transcript exists on disk and whether you have turned it into study notes. Session-level mastery items stay in [`LEARNING_CHECKLIST.md`](LEARNING_CHECKLIST.md).
+Use this file as the **single place** to track whether each session transcript exists on disk and whether you have turned it into study notes. Session-level mastery items stay in [`LEARNING_CHECKLIST.md`](LEARNING_CHECKLIST.md); each folder also has a **`CHECKLIST.md`** mirroring its section there.
 
 **Git note:** `**/*.vtt` is in [`.gitignore`](.gitignore). Files can be **present locally** but hidden from `git status` and some IDE searches—verify with Explorer or `Get-ChildItem -Recurse -Filter *.vtt` if needed.
 
@@ -41,8 +41,8 @@ Use this file as the **single place** to track whether each session transcript e
 | Folder | Note |
 |--------|------|
 | Repo root | No session transcript here. |
-| `09Apr26` | Empty placeholder folder (no `.vtt` when last checked). |
-| `18Apr26` | Folder may be missing in some clones until you add materials. |
+| `09Apr26` | Placeholder `Notes.md` only until you add session files (no `.vtt` when last checked). |
+| `18Apr26` | Placeholder `Notes.md` until you add materials / `.vtt`. |
 | `Assignment-01-Text_Encoding` | Assignment PDF only. |
 | `Class-06-11-Apr-Word2vec-with-practical` | Notes + notebook; no `.vtt`. |
 

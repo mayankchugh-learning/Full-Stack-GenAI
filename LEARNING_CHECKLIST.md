@@ -5,6 +5,8 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **`.vtt` inventory and conversion:** maintain presence + **Converted** / **Done** in [`VTT_CHECKLIST.md`](VTT_CHECKLIST.md).
 
+**Folder-level checklist:** The repo root has [`CHECKLIST.md`](CHECKLIST.md) for **Root (`/`)** tasks. Each dated session folder and each `Assignment-*` / `Class-*` folder has its own **`CHECKLIST.md`** (same tasks as the matching section below). Update the folder copy and this file together so checkboxes stay aligned.
+
 **Session understanding (each session folder):** Under **Mastery tasks**, complete the **`Notes.md`** item—read and internalize that file, or **create/update** `Notes.md` from the transcript and handouts until you can explain the session in your own words. Example shape: [`15Mar26/Notes.md`](15Mar26/Notes.md).
 
 **Folder order:** Below, dated session folders are listed **oldest → newest** (ascending by date). `Assignment-*` and `Class-*` folders come last.
@@ -215,9 +217,10 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 ## `09Apr26`
 
-**Files** — _(empty folder; add materials if you use this date)_
+**Files**
 
-- [ ] _(no files yet)_
+- [x] `Notes.md` _(placeholder — expand when you add session materials)_
+- [ ] _(add notebooks, PDFs, etc. as you get them)_
 
 **Mastery tasks**
 
@@ -284,8 +287,8 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Files** — *Add a bullet per file as you add them to this folder (match names in `INVENTORY.md`).*
 
-- [ ] _(placeholder — replace with real filenames, e.g. `notes.ipynb`, `session....vtt`)_  
-  _(In this clone the `18Apr26` folder is **absent** and there is **no** `.vtt` on disk yet.)_
+- [x] `Notes.md` _(placeholder — expand when you add session materials)_
+- [ ] _(add real filenames, e.g. `notes.ipynb`, `session....vtt`)_
 
 **Mastery tasks**
 
