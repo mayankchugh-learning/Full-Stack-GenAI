@@ -37,6 +37,18 @@
 
 ## NLP / LLM timeline (as narrated in class)
 
+### Full forms (quick glossary)
+
+- **NLP**: Natural Language Processing
+- **LLM**: Large Language Model
+- **RNN**: Recurrent Neural Network
+- **LSTM**: Long Short-Term Memory
+- **GRU**: Gated Recurrent Unit
+- **ULMFiT**: Universal Language Model Fine-tuning
+- **FFN**: Feed-Forward Network
+- **GPT**: Generative Pre-trained Transformer
+- **BERT**: Bidirectional Encoder Representations from Transformers
+
 Rough progression discussed (years approximate in speech — verify in papers):
 
 1. **RNN** → **LSTM** / **GRU** (sequence models; process tokens **sequentially**).
@@ -125,6 +137,21 @@ flowchart LR
 Instructor emphasis:
 - Transformer appears after the encoder-decoder and attention era.
 - Older seq2seq stacks used recurrent units; transformer shifted to attention-first modeling.
+
+Timeline (year/month where confidently available):
+
+| Stage | Approx timeline | Notes |
+|------|------------------|-------|
+| **RNN** | ~1986 onward | Early recurrent sequence modeling foundations. |
+| **LSTM** | ~1997 | Introduced to improve long-range memory over vanilla RNN. |
+| **GRU** | ~2014 | Simpler gated recurrent alternative to LSTM. |
+| **Encoder-Decoder (seq2seq)** | **Sep 2014** | ArXiv `1409.3215` timeline (seq2seq era kickoff in this class narrative). |
+| **Encoder-Decoder + Attention** | **Sep 2014** | ArXiv `1409.0473`; later recognized as key attention bridge. |
+| **ULMFiT** | **Jan 2018** | ArXiv `1801.06146`; LM pretrain + task fine-tune framing. |
+| **Transformer** | **Jun 2017** | ArXiv `1706.03762` (*Attention Is All You Need*). |
+| **LLM family scaling era** | ~2018 onward | GPT-style large-scale pretraining and rapid capability scaling. |
+
+Month values above come from arXiv IDs where available (`YYMM` prefix), and other entries are approximate historical anchors.
 
 ### 2) Why Transformer replaced LSTM-centric seq2seq (concept sketch)
 
