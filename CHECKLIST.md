@@ -1,5 +1,11 @@
 # Task checklist — repo root (`/`)
 
+Legend:
+
+- [x] done
+- [~] in progress / partial
+- [ ] not started
+
 Mirror of the **Root (`/`)** section in **[`LEARNING_CHECKLIST.md`](LEARNING_CHECKLIST.md)** (full bootcamp checklist). Session folders use their own `CHECKLIST.md`; this file covers **repository-wide** setup and orientation.
 
 ---
@@ -13,8 +19,8 @@ Mirror of the **Root (`/`)** section in **[`LEARNING_CHECKLIST.md`](LEARNING_CHE
 - [x] `pyproject.toml`
 - [x] `uv.lock`
 - [~] `requirements.txt`
-- [ ] `main.py`
-- [ ] `Notes.txt`
+- [x] `main.py`
+- [x] `Notes.txt`
 - [x] `Full-Stack GenAI Bootcamp v1.0.pdf` `-> converted into Course-Syllabus.md`
 - [x] `Copy of Full-Stack GenAI Bootcamp v1.0 (1).pdf`
 

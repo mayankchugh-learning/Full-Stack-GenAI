@@ -33,8 +33,9 @@ Use this file as the **single place** to track whether each session transcript e
 | `11Apr26` | `_Recording.transcript.vtt` | [x] | [`Notes.md`](11Apr26/Notes.md) | [x] | [x] |
 | `12Apr26` | `m_Recording.transcript (1).vtt` | [x] | [`Notes.md`](12Apr26/Notes.md) | [x] | [x] |
 | `18Apr26` | `_Recording.transcript.vtt` | [x] | [`Notes.md`](18Apr26/Notes.md) | [x] | [x] |
+| `19Apr26` | `Recording.transcript.vtt` | [x] | [`Notes.md`](19Apr26/Notes.md) | [x] | [x] |
 
-**On-disk column** — last full scan: 2026-04-19 (nine dated `.vtt` files including `18Apr26`). Re-check after clone or if you add/remove files.
+**On-disk column** — last full scan: 2026-04-25 (ten dated `.vtt` files through `19Apr26`). Re-check after clone or if you add/remove files.
 
 ---
 

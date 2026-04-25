@@ -938,6 +938,84 @@ window.BOOTCAMP_SESSION_QUIZ = {
           rationale:
             "Chunking aligns passages with model limits and finer retrieval granularity.",
         },
+        {
+          prompt:
+            "The 2017 paper “Attention Is All You Need” originally introduced the transformer architecture in what setting?",
+          choices: [
+            "Image segmentation only",
+            "Machine translation–style sequence modeling",
+            "Spreadsheet formula evaluation",
+            "Hardware GPU driver updates",
+          ],
+          correctIndex: 1,
+          rationale:
+            "Notes tie the paper to translation / seq2seq before broader NLP adoption.",
+        },
+        {
+          prompt:
+            "In the Sentence Transformers lab, what API typically turns raw text into fixed-size embedding vectors?",
+          choices: [
+            "`str.upper()` only",
+            "`encode()` (or equivalent on the loaded model)",
+            "`os.listdir()`",
+            "`pip uninstall`",
+          ],
+          correctIndex: 1,
+          rationale:
+            "Notes call out `encode()` for word, sentence, or paragraph text with pooling.",
+        },
+        {
+          prompt:
+            "How does the session contrast classical Word2Vec with SOTA transformer embeddings?",
+          choices: [
+            "Neither produces vectors",
+            "Word2Vec uses learned lookup/hidden-style vectors; SOTA uses transformers — both yield vectors you index for retrieval",
+            "SOTA embeddings cannot be stored",
+            "Word2Vec is only for audio",
+          ],
+          correctIndex: 1,
+          rationale:
+            "The bridge emphasizes the same retrieval use case with different model families.",
+        },
+        {
+          prompt:
+            "Which approach loads key/value pairs from a local `.env` into the notebook environment (as described)?",
+          choices: [
+            "Manual copy-paste into TikTok",
+            "`python-dotenv` / `load_dotenv` pattern",
+            "Only `/etc/passwd`",
+            "Emailing keys to the instructor",
+          ],
+          correctIndex: 1,
+          rationale:
+            "Notes mention loading `.env` via dotenv; never commit secrets to git.",
+        },
+        {
+          prompt:
+            "Module 2 is expected to open with roughly 2–3 sessions on which topic?",
+          choices: [
+            "Transformer architecture (optional from-scratch code mentioned)",
+            "Only mainframe JCL",
+            "Excel pivot refreshes",
+            "DNS reverse lookups",
+          ],
+          correctIndex: 0,
+          rationale:
+            "Notes say the Transformers module starts here after the SOTA embedding bridge.",
+        },
+        {
+          prompt:
+            "If your kernel’s working directory is the nested `Class-08-…` notebook copy, how might `images.jpg` be found for CLIP?",
+          choices: [
+            "It cannot be loaded",
+            "Use the session folder path or `../images.jpg` relative to cwd, per Notes",
+            "Only from `System32`",
+            "Rename it to `.env`",
+          ],
+          correctIndex: 1,
+          rationale:
+            "Notes warn cwd differs when running the duplicate path; adjust image paths accordingly.",
+        },
       ],
     },
 

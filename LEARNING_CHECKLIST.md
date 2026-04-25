@@ -303,12 +303,37 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 - [ ] Work through each notebook or PDF you add; note dependencies (`uv sync` / kernel).
 - [ ] Link this session to earlier units (e.g. `12Apr26` / `05Apr26`) in your own outline.
 - [ ] **Session understanding:** Read [`Notes.md`](18Apr26/Notes.md) until you can summarize the session without the recording.
+- [x] **Session quiz (self-check):** Optional quiz in [`session-quiz-app/`](session-quiz-app/) for `18apr26` — **you confirmed completion** (Apr 2026).
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
 | `_Recording.transcript.vtt` | [`Notes.md`](18Apr26/Notes.md) | [x] | [x] |
+
+---
+
+## `19Apr26` — Class 09 materials
+
+**Files**
+
+- [x] [`Class-09-19-Apr-Notion-Notes.pdf`](19Apr26/Class-09-19-Apr-Notion-Notes.pdf)
+- [x] [`Class-09-19-Apr-Handwritten-Notes.pdf`](19Apr26/Class-09-19-Apr-Handwritten-Notes.pdf)
+- [x] [`Notes.md`](19Apr26/Notes.md)
+- [x] `Recording.transcript.vtt` _(local; `*.vtt` gitignored)_
+
+**Mastery tasks**
+
+- [ ] Name the session topic in one line after reviewing both PDFs.
+- [ ] Create or update [`Notes.md`](19Apr26/Notes.md) with your summary and key takeaways.
+- [ ] Link this session to earlier units in your own outline.
+- [ ] **Session understanding:** Read [`Notes.md`](19Apr26/Notes.md) until you can summarize the session without the source files.
+
+**`.vtt` → notes (keep original `.vtt`)**
+
+| Original `.vtt` | Your notes file | Converted? | You confirm done |
+|-----------------|-----------------|------------|-------------------|
+| `Recording.transcript.vtt` | [`Notes.md`](19Apr26/Notes.md) | [x] | [x] |
 
 ---
 
