@@ -114,3 +114,12 @@ Mentioned or linked in Notion during class (names as spoken):
 - `19Apr26/Class-09-19-Apr-Handwritten-Notes.pdf` — 11 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
 - `19Apr26/Class-09-19-Apr-Notion-Notes.pdf` — 1 pages; text extracted (900 chars). Key snippet: Class-08-09-18-Apr-19-Apr sentence transformer: https://huggingface.co/sentence-transformers Sentence transformer models: https://huggingface.co/models?library=sentence- transforme
 
+---
+
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:07:25.020`
+- Session conclusion time (teaching concluded cue): `02:45:05.429`
+- Q&A segment: `02:52:26.300` to `03:55:56.259` (`01:03:29.959`)
+- Full recording span (`.vtt` first cue to last cue): `03:48:31.239`
+

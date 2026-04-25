@@ -170,3 +170,12 @@ Timestamps in the VTT mark where each cue was spoken; use them to replay the seg
 - `18Apr26/Class-08-18-Apr-Hand-written-notes.pdf` — 4 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
 - `18Apr26/Class-08-18-Apr-Notion-Notes.pdf` — 1 pages; text extracted (543 chars). Key snippet: Class-08-18-Apr sentence transformer: https://huggingface.co/sentence-transformers Sentence transformer models: https://huggingface.co/models?library=sentence- transformers&sort=do
 
+---
+
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:04:21.060`
+- Session conclusion time (teaching concluded cue): `04:40:08.369`
+- Q&A segment: `04:40:04.910` to `04:51:56.300` (`00:11:51.390`)
+- Full recording span (`.vtt` first cue to last cue): `04:47:35.240`
+

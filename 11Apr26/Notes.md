@@ -55,3 +55,12 @@
 ---
 
 *Use the `.vtt` timestamps to replay derivations on the whiteboard and live Q&A.*
+
+---
+
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:03:40.000`
+- Session conclusion time (teaching concluded cue): `04:43:16.500`
+- Q&A segment: `04:43:15.770` to `04:46:24.929` (`00:03:09.159`)
+- Full recording span (`.vtt` first cue to last cue): `04:42:44.929`
