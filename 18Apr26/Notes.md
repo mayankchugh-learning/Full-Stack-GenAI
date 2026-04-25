@@ -162,3 +162,11 @@ Timestamps in the VTT mark where each cue was spoken; use them to replay the seg
 *Transcript is long; use timestamps in `_Recording.transcript.vtt` to replay demos. Cross-check commands with the **Notion PDF**; key links are also inlined above under **Tutor links**. Board structure: **handwritten PDF**.*
 
 **Study order:** skim **Notion PDF** + **all four pages** of the **handwritten PDF** (outline under **Handwritten board notes**) → run **`SOTA-llm-embedding.ipynb`** from the folder that matches your kernel cwd → keep **`Notes.md`** as your verbal summary for revision.
+
+---
+
+## PDF sync snapshot (auto-updated: 25 Apr 2026)
+
+- `18Apr26/Class-08-18-Apr-Hand-written-notes.pdf` — 4 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+- `18Apr26/Class-08-18-Apr-Notion-Notes.pdf` — 1 pages; text extracted (543 chars). Key snippet: Class-08-18-Apr sentence transformer: https://huggingface.co/sentence-transformers Sentence transformer models: https://huggingface.co/models?library=sentence- transformers&sort=do
+

@@ -194,3 +194,11 @@ This class **completed the first syllabus module on embeddings** (neural Word2Ve
 - Transcript **ASR errors** (CBOW → “CBOG,” “SIBO,” etc.) were normalized here to standard terms.
 - **Exact code cells, hyperparameter numbers, and defaults** should be taken from the **GitHub notebook** and **Gensim version** you use, not only from speech.
 - **Transformer architecture, attention, and SOTA models** were **not** the main taught block in this `.vtt`; follow the next sessions for that content.
+
+---
+
+## PDF sync snapshot (auto-updated: 25 Apr 2026)
+
+- `12Apr26/Class-06-11-Apr-handwritten-notes-word2vec.pdf` — 26 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+- `12Apr26/Class-07-12-Apr-handwritten-notes.pdf` — 38 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+

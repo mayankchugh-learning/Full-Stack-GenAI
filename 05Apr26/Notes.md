@@ -52,3 +52,11 @@ Roughly the **third** class on **encoding & embedding**. Plan: solidify **TF-IDF
 ---
 
 *ASR in the transcript often writes “Word2Vec” as “word to bag” / similar — interpret in context.*
+
+---
+
+## PDF sync snapshot (auto-updated: 25 Apr 2026)
+
+- `05Apr26/class-05-embedding-encoding-handwritten.pdf` — 19 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+- `05Apr26/word2vec_research_paper.pdf` — 12 pages; text extracted (38744 chars). Key snippet: Efﬁcient Estimation of Word Representations in Vector Space Tomas Mikolov Google Inc., Mountain View, CA tmikolov@google.com Kai Chen Google Inc., Mountain View, CA kaichen@google. | than a few hundred of millions of words, with a modest dimensionality of the word vectors between 50 - 100. We use recently proposed techniques for measuring the quality of the res
+

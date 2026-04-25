@@ -43,3 +43,10 @@ That document covers:
 
 - [`../29Mar26/Notes.md`](../29Mar26/Notes.md) — class 03 setup and definitions  
 - [`../05Apr26/Notes.md`](../05Apr26/Notes.md) — next session (TF-IDF emphasis, assignment, Word2Vec thread)
+
+---
+
+## PDF sync snapshot (auto-updated: 25 Apr 2026)
+
+- `04Apr26/encoding-handwritten-notes-4-apr.pdf` — 16 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+

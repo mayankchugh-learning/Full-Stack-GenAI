@@ -176,3 +176,13 @@ ChatGPT is **not** “a bag of classical ML algorithms” in the sklearn sense �
 ## Source
 
 Derived from `22Mar26/Recording.transcript.vtt` (Full-Stack GenAI Bootcamp session, 22 Mar 2026). Supplemented from `uv_master_guide.pdf`, `a.txt`, and `Notes.txt` as listed above.
+
+---
+
+## PDF sync snapshot (auto-updated: 25 Apr 2026)
+
+- `22Mar26/22-03-2026/22-03-2026_notes.pdf` — 8 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+- `22Mar26/22-03-2026/uv_master_guide.pdf` — 3 pages; text extracted (4800 chars). Key snippet: 🛸 The Ultimate uv Master Guide (2026) uv is an extremely fast Python package and project manager. It replaces pip , pip-tools , venv , and pyenv in a single, Rust-based binary. 🛠️  | uv init # Creates the pyproject.toml scaffold uv python pin 3.12 # "Pinning" locks the project to a specific Python version What is uv python pin ? It tells uv never to guess which
+- `22Mar26/22-03-2026_handwritten-notes.pdf` — 8 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+- `22Mar26/uv_master_guide.pdf` — 3 pages; text extracted (4800 chars). Key snippet: 🛸 The Ultimate uv Master Guide (2026) uv is an extremely fast Python package and project manager. It replaces pip , pip-tools , venv , and pyenv in a single, Rust-based binary. 🛠️  | uv init # Creates the pyproject.toml scaffold uv python pin 3.12 # "Pinning" locks the project to a specific Python version What is uv python pin ? It tells uv never to guess which
+

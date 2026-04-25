@@ -106,3 +106,11 @@ Mentioned or linked in Notion during class (names as spoken):
 ---
 
 **Study order:** Read this outline → skim **Notion + handwritten PDFs** → replay tricky segments in `Recording.transcript.vtt` by timestamp → keep **`Notes.md`** updated with your own examples.
+
+---
+
+## PDF sync snapshot (auto-updated: 25 Apr 2026)
+
+- `19Apr26/Class-09-19-Apr-Handwritten-Notes.pdf` — 11 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+- `19Apr26/Class-09-19-Apr-Notion-Notes.pdf` — 1 pages; text extracted (900 chars). Key snippet: Class-08-09-18-Apr-19-Apr sentence transformer: https://huggingface.co/sentence-transformers Sentence transformer models: https://huggingface.co/models?library=sentence- transforme
+

@@ -198,3 +198,11 @@ _Transcript → notes row for this folder is tracked in [`CHECKLIST.md`](CHECKLI
 ---
 
 *Transcript ~4h 45m; timestamps in the VTT file map to the recording for deep dives on any section.*
+
+---
+
+## PDF sync snapshot (auto-updated: 25 Apr 2026)
+
+- `28Mar26/class-02-march-28-general discussion.pdf` — 5 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+- `28Mar26/live-class-notion-notes.pdf` — 5 pages; text extracted (2065 chars). Key snippet: 👋 Class-01-Intro-GenAI-LLMs 🔹 Check UV installed uv --version 🔹 Install UV (if not installed) pip install uv 🔹 Initialize Project uv init 🔹 Check Installed Packages uv pip list 🔹 C | Generic: uv venv <your-env-name> --python <your-python-version> 🔹 Install Packages Single package: uv add <package_name> uv pip install <package_name> From requirements file: uv ad
+

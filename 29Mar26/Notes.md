@@ -61,3 +61,11 @@ Order discussed for building intuition:
 ---
 
 *Transcript is long; use timestamps in the `.vtt` file to revisit derivations and live Q&A.*
+
+---
+
+## PDF sync snapshot (auto-updated: 25 Apr 2026)
+
+- `29Mar26/Class-03-encoding-embedding-handwritten.pdf` — 10 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
+- `29Mar26/Class-03-encoding-embedding-notion.pdf` — 1 pages; text extracted (463 chars). Key snippet: Class-03-Embedding-Encoding imp note: use python 3.11 for this practical use only cpython interpreter uv python list uv python install <give the specific version of the python> uv
+
