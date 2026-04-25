@@ -223,6 +223,36 @@ These are the clearest attached captures aligned with this class discussion.
 
 - Useful as a compact "mental model" after reading the formal transformer diagram.
 
+**G) Cross-language attention heatmaps (alignment intuition)**
+
+![Cross-language attention heatmaps from translation examples](image/attention-heatmap-cross-language.png)
+
+- Shows how attention can align source and target tokens in translation settings (older attention-era intuition before full self-attention deep dive).
+
+**H) Attention-head behavior patterns (structure-focused heads)**
+
+![Attention head behavior examples (Figure 5 style)](image/attention-head-patterns-figure5.png)
+
+- Useful for understanding that different heads learn different relationship patterns (position/structure/syntax cues), not a single uniform behavior.
+
+**I) Self-attention focus example (layer-head token view)**
+
+![Self-attention visualization focusing on token relationships](image/self-attention-layer5-it-token.png)
+
+- Good reference for "a token attends to relevant context tokens" explanation used in class (connects directly to dynamic/contextual embeddings).
+
+**J) Dynamic embedding disambiguation example ("Apple" context)**
+
+![Self-attention dynamic embedding example with Apple as company vs fruit](image/self-attention-apple-disambiguation.png)
+
+- Captures the exact class intuition: the same token can map to different meanings based on surrounding words (company/product context vs fruit context).
+
+**K) End-to-end mini flow (tokenization -> embeddings -> PE -> self-attention -> FFN)**
+
+![Tokenization to PE to self-attention and FFN flow sketch](image/tokenization-pe-selfattention-ffn-flow.png)
+
+- Useful as a compact bridge from preprocessing to the two core transformer learning blocks (self-attention and feed-forward network).
+
 ### 4) Research-paper map used with the flowchart
 
 - Sequence-to-sequence (encoder-decoder): [https://arxiv.org/pdf/1409.3215](https://arxiv.org/pdf/1409.3215)
