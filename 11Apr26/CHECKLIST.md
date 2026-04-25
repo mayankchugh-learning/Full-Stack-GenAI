@@ -10,10 +10,14 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 
 - [x] `_Recording.transcript.vtt` _(present on disk)_
 - [x] [`Notes.md`](Notes.md)
+- [x] [`Class-06-11-Apr-handwritten-notes-word2vec.pdf`](Class-06-11-Apr-handwritten-notes-word2vec.pdf)
+- [x] [`classical_word_embedding.ipynb`](classical_word_embedding.ipynb)
 
 ## Mastery tasks
 
-- [ ] If this is only a transcript, pair it with notes from an adjacent dated folder or Notion.
+- [ ] Run [`classical_word_embedding.ipynb`](classical_word_embedding.ipynb) and record any env/dependency issues.
+- [ ] Compare outputs with [`../12Apr26/classical_word_embedding.ipynb`](../12Apr26/classical_word_embedding.ipynb) (same model flow? any differences?).
+- [ ] Reconcile this folder’s handwritten PDF + transcript into one short Word2Vec summary in your own words.
 - [ ] **Session understanding:** Read [`Notes.md`](Notes.md); expand until you can summarize the session without the recording.
 
 ## `.vtt` → notes (keep original `.vtt`)

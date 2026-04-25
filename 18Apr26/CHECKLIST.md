@@ -18,10 +18,10 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 
 ## Mastery tasks
 
-- [ ] Name the session topic (one line) once you have the materials — _starter in [`Notes.md`](Notes.md)._
+- [x] Name the session topic (one line) once you have the materials — **SOTA Embedding model** (starter in [`Notes.md`](Notes.md)).
 - [x] Work through each notebook or PDF you add; note dependencies (`uv sync` / kernel).
 - [ ] Link this session to earlier units (e.g. [`../12Apr26/`](../12Apr26/) / [`../05Apr26/`](../05Apr26/)) in your own outline.
-- [ ] **Session understanding:** Read [`Notes.md`](Notes.md) until you can summarize the session without the recording.
+- [x] **Session understanding:** Read [`Notes.md`](Notes.md) until you can summarize the session without the recording.
 - [x] **Session quiz (self-check):** Completed the optional quiz in [`../session-quiz-app/`](../session-quiz-app/) for **`18apr26`** (e.g. `?session=18apr26`). _You confirmed — Apr 2026 (100% on self-check)._
 
 ## `.vtt` → notes (keep original `.vtt`)

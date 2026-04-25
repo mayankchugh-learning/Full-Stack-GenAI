@@ -3,7 +3,7 @@
 **Source:** `_Recording.transcript.vtt` (speech-to-text may garble “Word2Vec” as “word to bag,” “SIBO” for CBOW, etc.)  
 **Instructor:** Sunny Savita  
 
-**Related hands-on:** [`../12Apr26/classical_word_embedding.ipynb`](../12Apr26/classical_word_embedding.ipynb), [`../12Apr26/custom_word2vec_training.ipynb`](../12Apr26/custom_word2vec_training.ipynb) — the **12 Apr** folder has the longer notebook walkthrough in [`../12Apr26/Notes.md`](../12Apr26/Notes.md).
+**Related hands-on:** [`classical_word_embedding.ipynb`](classical_word_embedding.ipynb), [`Class-06-11-Apr-handwritten-notes-word2vec.pdf`](Class-06-11-Apr-handwritten-notes-word2vec.pdf), plus [`../12Apr26/classical_word_embedding.ipynb`](../12Apr26/classical_word_embedding.ipynb) and [`../12Apr26/custom_word2vec_training.ipynb`](../12Apr26/custom_word2vec_training.ipynb). The **12 Apr** folder has the longer notebook walkthrough in [`../12Apr26/Notes.md`](../12Apr26/Notes.md).
 
 ---
 

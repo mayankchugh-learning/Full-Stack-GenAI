@@ -242,10 +242,13 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 - [x] `_Recording.transcript.vtt`
 - [x] [`Notes.md`](11Apr26/Notes.md)
+- [x] [`Class-06-11-Apr-handwritten-notes-word2vec.pdf`](11Apr26/Class-06-11-Apr-handwritten-notes-word2vec.pdf)
+- [x] [`classical_word_embedding.ipynb`](11Apr26/classical_word_embedding.ipynb)
 
 **Mastery tasks**
 
-- [ ] Pair with [`12Apr26/Notes.md`](12Apr26/Notes.md) notebooks if you want the full practical walkthrough.
+- [ ] Run [`11Apr26/classical_word_embedding.ipynb`](11Apr26/classical_word_embedding.ipynb) and note any env/dependency issues.
+- [ ] Compare with [`12Apr26/classical_word_embedding.ipynb`](12Apr26/classical_word_embedding.ipynb) / [`12Apr26/Notes.md`](12Apr26/Notes.md) for the extended walkthrough.
 - [ ] **Session understanding:** Read [`Notes.md`](11Apr26/Notes.md) until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
@@ -289,6 +292,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Files**
 
+- [x] [`CHECKLIST.md`](18Apr26/CHECKLIST.md)
 - [x] [`Notes.md`](18Apr26/Notes.md)
 - [x] [`SOTA-llm-embedding.ipynb`](18Apr26/SOTA-llm-embedding.ipynb)
 - [x] [`Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb`](18Apr26/Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb)
@@ -299,10 +303,10 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Mastery tasks**
 
-- [ ] Name the session topic (one line) once you have the materials — _see [`Notes.md`](18Apr26/Notes.md)._
-- [ ] Work through each notebook or PDF you add; note dependencies (`uv sync` / kernel).
+- [x] Name the session topic (one line) once you have the materials — **SOTA Embedding model** (_see [`Notes.md`](18Apr26/Notes.md)_).
+- [x] Work through each notebook or PDF you add; note dependencies (`uv sync` / kernel).
 - [ ] Link this session to earlier units (e.g. `12Apr26` / `05Apr26`) in your own outline.
-- [ ] **Session understanding:** Read [`Notes.md`](18Apr26/Notes.md) until you can summarize the session without the recording.
+- [x] **Session understanding:** Read [`Notes.md`](18Apr26/Notes.md) until you can summarize the session without the recording.
 - [x] **Session quiz (self-check):** Optional quiz in [`session-quiz-app/`](session-quiz-app/) for `18apr26` — **you confirmed completion** (Apr 2026).
 
 **`.vtt` → notes (keep original `.vtt`)**
@@ -317,6 +321,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Files**
 
+- [x] [`CHECKLIST.md`](19Apr26/CHECKLIST.md)
 - [x] [`Class-09-19-Apr-Notion-Notes.pdf`](19Apr26/Class-09-19-Apr-Notion-Notes.pdf)
 - [x] [`Class-09-19-Apr-Handwritten-Notes.pdf`](19Apr26/Class-09-19-Apr-Handwritten-Notes.pdf)
 - [x] [`Notes.md`](19Apr26/Notes.md)

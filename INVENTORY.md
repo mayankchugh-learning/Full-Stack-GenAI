@@ -35,11 +35,11 @@ Sorted **by date ascending**, then non-dated.
 | `04Apr26` | 4 | ~6 MB | Encoding notebook, notes, PDF |
 | `05Apr26` | 8 | ~10 MB | Encoding notebook copy, PDFs, transcript |
 | `09Apr26` | 0 | — | Empty placeholder folder |
-| `11Apr26` | 1 | small | Transcript |
+| `11Apr26` | 6 | ~15 MB | Transcript + Notes + moved Word2Vec notebook/PDF + checklists |
 | `12Apr26` | 8 | ~35 MB | Word2Vec notebooks, notes, PDFs, `data/` stories |
-| `18Apr26` | — | — | April 18 session — *refresh file list below after you add materials* |
+| `18Apr26` | 14 | varies | Class 08 SOTA embeddings assets (notebook copies, PDFs, images, notes/checklist, transcript) |
+| `19Apr26` | 5 | ~8 MB | Class 09 intro-transformer session (Notion + handwritten PDFs, notes/checklist, transcript) |
 | `Assignment-01-Text_Encoding` | 1 | tiny | Assignment PDF |
-| `Class-06-11-Apr-Word2vec-with-practical` | 2 | ~14 MB | Duplicate Word2Vec PDF + notebook |
 
 ---
 
@@ -117,6 +117,10 @@ Empty (no tracked files in inventory snapshot).
 | File | Type |
 |------|------|
 | `_Recording.transcript.vtt` | WebVTT |
+| `Notes.md` | Notes |
+| `Class-06-11-Apr-handwritten-notes-word2vec.pdf` | PDF (moved from old class folder) |
+| `classical_word_embedding.ipynb` | Jupyter (moved from old class folder) |
+| `CHECKLIST.md`, `CHECKLIST-Class-06-11-Apr-Word2vec-with-practical.md` | Checklist files (canonical + legacy redirect) |
 
 ---
 
@@ -134,11 +138,26 @@ Empty (no tracked files in inventory snapshot).
 
 ## `18Apr26` — April 18 session
 
-*Update this table when you add notebooks, PDFs, transcripts, or other files.*
+| File | Type |
+|------|------|
+| `Notes.md`, `CHECKLIST.md` | Notes + checklist |
+| `SOTA-llm-embedding.ipynb`, `SOTA-llm-embedding-mine.ipynb` | Jupyter (main + personal copy) |
+| `Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb` | Jupyter (nested duplicate path) |
+| `Class-08-18-Apr-Notion-Notes.pdf`, `Class-08-18-Apr-Hand-written-notes.pdf` | PDF |
+| `images.jpg`, `image/sunny-savita.png` | Session image assets |
+| `image/feedforward-nn-multi-layer.png`, `image/feedforward-nn-multi-layer.svg`, `image/attention-is-all-you-need-encoder-decoder-figure1.png` | Diagram assets added for notes |
+| `_Recording.transcript.vtt` | WebVTT (local/gitignored by `**/*.vtt`) |
+| `.env` | Local environment file (secrets; do not commit) |
+
+---
+
+## `19Apr26` — April 19 session (Class 09)
 
 | File | Type |
 |------|------|
-| _(add your files)_ | — |
+| `Notes.md`, `CHECKLIST.md` | Notes + checklist |
+| `Class-09-19-Apr-Notion-Notes.pdf`, `Class-09-19-Apr-Handwritten-Notes.pdf` | PDF |
+| `Recording.transcript.vtt` | WebVTT |
 
 ---
 
@@ -150,12 +169,10 @@ Empty (no tracked files in inventory snapshot).
 
 ---
 
-## `Class-06-11-Apr-Word2vec-with-practical`
+## `Class-06-11-Apr-Word2vec-with-practical` (migrated)
 
-| File | Type |
-|------|------|
-| `Class-06-11-Apr-handwritten-notes-word2vec.pdf` | PDF (same asset as under `12Apr26` in name) |
-| `classical_word_embedding.ipynb` | Jupyter |
+This folder was removed; files were moved into [`11Apr26/`](11Apr26/).  
+Use `11Apr26` as the canonical location.
 
 ---
 
