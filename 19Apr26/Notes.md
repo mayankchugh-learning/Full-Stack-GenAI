@@ -21,6 +21,7 @@
 | [`Class-09-19-Apr-Handwritten-Notes.pdf`](Class-09-19-Apr-Handwritten-Notes.pdf) | Handwritten notes from class. |
 | [`Notes.md`](Notes.md) | This summary (merged from transcript). |
 | `Recording.transcript.vtt` | Full transcript (often **gitignored**; keep locally next to notes). |
+| `Diagram/image exports` | Not present as separate files in this folder right now; board visuals are captured in the handwritten PDF + transcript explanations below. |
 
 **One-line topic:** **From RNN/LSTM and encoder–decoder to the Transformer** — historical context, **attention vs self-attention** intuition, and the **high-level data path** inside a transformer (tokenize → embed → positional encoding → self-attention → feed-forward).
 
@@ -46,6 +47,26 @@ Rough progression discussed (years approximate in speech — verify in papers):
 6. Path to **LLMs**: instructor cites **LM pre-training + fine-tuning** story (e.g. ULMFiT-style thinking) leading toward large language models; **GPT-2** paper mentioned as a landmark in the “LLM pre-training” storyline.
 
 **Interview framing (per class):** For **GenAI engineer** roles, deep architecture questions often center on the **transformer**, not every legacy block — but the **timeline** is taught for intuition.
+
+---
+
+## RNN, LSTM, GRU history context (instructor discussion)
+
+The instructor explicitly used this progression to explain *why* transformer was needed:
+
+| Model family | Why it was used | Main limitation discussed in class |
+|-------------|------------------|------------------------------------|
+| **RNN** | Early sequence modeling for NLP/time-series style data. | Strong sequential dependency; weak long-context retention; slow for long inputs. |
+| **LSTM** | Improvement over vanilla RNN with gating (long/short-term memory control). | Better than RNN, but still sequential and hard to scale to very large corpora. |
+| **GRU** | Simplified gated recurrent variant used as an LSTM alternative. | Similar sequential bottlenecks remain for large-scale pretraining. |
+| **Encoder-Decoder (seq2seq)** | Structured input->output mapping (e.g., translation). Often implemented with LSTM blocks in early systems. | Fixed-vector bottleneck and context compression issues for longer text. |
+| **Encoder-Decoder + Attention** | Introduced alignment/attention over source tokens to reduce fixed-vector pain. | Big step forward, but still not the fully parallel transformer-style design. |
+| **Transformer** | Self-attention + parallelization made large-scale language modeling practical. | Moves complexity to attention/computation costs, but scales much better than recurrent stacks for LLM training. |
+
+How to remember this arc quickly:
+- **RNN/LSTM/GRU era:** recurrent, token-by-token processing.
+- **Attention bridge era:** seq2seq improved with alignment.
+- **Transformer era:** self-attention-first design, parallel processing, and better large-context scaling.
 
 ---
 
@@ -81,6 +102,118 @@ Order emphasized for training and inference alike:
 6. **Feed-forward network (FFN)** — standard MLP block per position; **together with self-attention** described as where **most learning** happens.
 
 **One-sentence pitch for a transformer block:** Data moves **in parallel**; core learning is **self-attention** + **feed-forward** layers (details and multi-head blocks → next sessions).
+
+---
+
+## Instructor diagrams and board visuals (added)
+
+Below are the diagram-level artifacts the instructor walked through in this class. They are captured as renderable diagrams here so revision is easier even without separate PNG/JPG exports.
+
+### 1) NLP architecture evolution flowchart (RNN -> Transformer)
+
+```mermaid
+flowchart LR
+    A[RNN] --> B[LSTM]
+    B --> C[GRU]
+    C --> D[Encoder-Decoder]
+    D --> E[Encoder-Decoder with Attention]
+    E --> F[ULMFiT]
+    F --> G[Transformer]
+    G --> H[LLM Family]
+```
+
+Instructor emphasis:
+- Transformer appears after the encoder-decoder and attention era.
+- Older seq2seq stacks used recurrent units; transformer shifted to attention-first modeling.
+
+### 2) Why Transformer replaced LSTM-centric seq2seq (concept sketch)
+
+```mermaid
+flowchart TD
+    A[LSTM / Seq2Seq limits] --> A1[Sequential processing]
+    A --> A2[Slower training on large corpora]
+    A --> A3[Context bottleneck in fixed-vector transfer]
+    A1 --> B[Transformer with Self-Attention]
+    A2 --> B
+    A3 --> B
+    B --> C1[Parallel token processing]
+    B --> C2[Better long-range context handling]
+    B --> C3[Scales to larger datasets]
+```
+
+### 3) Transformer data path sketch used in class
+
+```mermaid
+flowchart LR
+    T[Input text] --> U[Tokenization]
+    U --> V[Token Embedding]
+    V --> W[Positional Encoding]
+    W --> X[Self-Attention]
+    X --> Y[Feed-Forward Network]
+    Y --> Z[Task head / generation]
+```
+
+Diagram note:
+- This class stayed at intuition + high-level architecture; deeper multi-head attention internals are expected in the next transformer sessions.
+
+### 4) Research-paper map used with the flowchart
+
+- Sequence-to-sequence (encoder-decoder): [https://arxiv.org/pdf/1409.3215](https://arxiv.org/pdf/1409.3215)
+- Encoder-decoder with attention: [https://arxiv.org/pdf/1409.0473](https://arxiv.org/pdf/1409.0473)
+- ULMFiT: [https://arxiv.org/pdf/1801.06146](https://arxiv.org/pdf/1801.06146)
+- Transformer paper (*Attention Is All You Need*): [https://arxiv.org/pdf/1706.03762](https://arxiv.org/pdf/1706.03762)
+- Illustrated Transformer explainer: [https://jalammar.github.io/illustrated-transformer/](https://jalammar.github.io/illustrated-transformer/)
+
+---
+
+## Handwritten PDF review (page 5 onward) with transcript cross-check
+
+Instructor note in class indicated parts of the board were reused from earlier explanations ("old board" style continuation). The handwritten PDF is scanned-only (no selectable text on pages 5-11), so this mapping is reconciled using transcript cues.
+
+### Page 5-11 consolidated mapping (what the board section corresponds to)
+
+1. **History flow from recurrent models to transformer**
+   - Matches transcript discussion: `RNN -> LSTM -> GRU -> Encoder-Decoder -> Encoder-Decoder + Attention -> ULMFiT -> Transformer`.
+   - Key cue: instructor repeatedly says this is the timeline to explain where transformer "came into existence."
+
+2. **Why older seq2seq/LSTM stack was insufficient**
+   - Matches cues on:
+     - sequential processing bottleneck,
+     - weaker scalability on larger corpora,
+     - fixed-vector/context compression pain in early encoder-decoder framing.
+   - Key cue: "we were not able to train this LSTM model over very huge data."
+
+3. **Attention vs Self-attention distinction**
+   - Board content aligns with:
+     - 2016 attention paper for translation alignment,
+     - transformer self-attention within the same sentence.
+   - Instructor examples used in transcript:
+     - "turn on the light" (intra-sentence relation),
+     - polysemy context examples (bank/money style disambiguation discussion).
+
+4. **LSTM architecture vs Transformer architecture visual contrast**
+   - Instructor explicitly says he is showing both architecture visuals and comparing interview-level differences.
+   - Board interpretation from transcript:
+     - recurrent/gated structure on LSTM side,
+     - encoder-decoder transformer block stack on transformer side.
+
+5. **Encoder-decoder block orientation and model-family mapping**
+   - Matches transcript statements:
+     - original transformer has encoder + decoder,
+     - GPT/Llama/Mistral family described as decoder-oriented in modern usage,
+     - BERT referenced as encoder-oriented.
+
+6. **Preview of internal transformer topics (next-class bridge)**
+   - Board cues correspond to the checklist the instructor spoke:
+     - positional encoding,
+     - self-attention / multi-head attention,
+     - normalization + residual + feed-forward flow,
+     - repeated encoder stack (paper used 6 layers).
+
+### Confidence note for pages 5-11
+
+- Since pages 5-11 are scanned board images without extractable text, the above is **high-confidence semantic alignment** from the transcript narrative, not OCR-exact transcription of each handwritten symbol.
+- If you want strict page-by-page exactness, export each page as PNG and I can annotate every page with per-box labels.
 
 ---
 
