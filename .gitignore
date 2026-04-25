@@ -184,3 +184,6 @@ Desktop.ini
 
 # WebVTT class transcripts — keep local only (not pushed to GitHub)
 **/*.vtt
+
+# Session Q&A working notes — keep local only
+**/Q-n-A.md
