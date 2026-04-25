@@ -1,5 +1,13 @@
 # Session notes — 5 Apr 2026 — Encoding & embedding (TF-IDF, Word2Vec thread, assignment)
 
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:06:58.290`
+- Session conclusion time (teaching concluded cue): `03:51:13.989`
+- Q&A segment: `04:14:02.810` to `04:39:00.160` (`00:24:57.350`)
+- Full recording span (`.vtt` first cue to last cue): `04:32:01.870`
+
+
 **Source:** `GMT20260405-142945_Recording.transcript.vtt`  
 **Instructor:** Sunny Savita  
 **Materials in folder:** `encoding (1).ipynb`, handwritten PDF, Word2Vec paper PDF, `main.py`, `README (2).md`, `requirements (1).txt`.
@@ -59,13 +67,3 @@ Roughly the **third** class on **encoding & embedding**. Plan: solidify **TF-IDF
 
 - `05Apr26/class-05-embedding-encoding-handwritten.pdf` — 19 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
 - `05Apr26/word2vec_research_paper.pdf` — 12 pages; text extracted (38744 chars). Key snippet: Efﬁcient Estimation of Word Representations in Vector Space Tomas Mikolov Google Inc., Mountain View, CA tmikolov@google.com Kai Chen Google Inc., Mountain View, CA kaichen@google. | than a few hundred of millions of words, with a modest dimensionality of the word vectors between 50 - 100. We use recently proposed techniques for measuring the quality of the res
-
----
-
-## Transcript timing extraction (session + Q&A split)
-
-- Session start time: `00:06:58.290`
-- Session conclusion time (teaching concluded cue): `03:51:13.989`
-- Q&A segment: `04:14:02.810` to `04:39:00.160` (`00:24:57.350`)
-- Full recording span (`.vtt` first cue to last cue): `04:32:01.870`
-

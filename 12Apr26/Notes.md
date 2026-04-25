@@ -1,5 +1,13 @@
 # Session notes — Full Stack Generative AI & Agentic AI Bootcamp
 
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:06:30.020`
+- Session conclusion time (teaching concluded cue): `03:56:03.860`
+- Q&A segment: `04:04:20.460` to `04:07:57.949` (`00:03:37.489`)
+- Full recording span (`.vtt` first cue to last cue): `04:01:27.929`
+
+
 **Source:** `m_Recording.transcript (1).vtt` — content below synthesizes this transcript with the notebooks in this folder (see also [`../11Apr26/Notes.md`](../11Apr26/Notes.md) for the paired session).
 
 **ASR note:** Speech-to-text often writes “Word2Vec” as “word to back,” “VirtuBag,” etc.
@@ -201,13 +209,3 @@ This class **completed the first syllabus module on embeddings** (neural Word2Ve
 
 - `12Apr26/Class-06-11-Apr-handwritten-notes-word2vec.pdf` — 26 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
 - `12Apr26/Class-07-12-Apr-handwritten-notes.pdf` — 38 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
-
----
-
-## Transcript timing extraction (session + Q&A split)
-
-- Session start time: `00:06:30.020`
-- Session conclusion time (teaching concluded cue): `03:56:03.860`
-- Q&A segment: `04:04:20.460` to `04:07:57.949` (`00:03:37.489`)
-- Full recording span (`.vtt` first cue to last cue): `04:01:27.929`
-

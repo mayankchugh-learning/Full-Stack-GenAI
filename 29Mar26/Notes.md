@@ -1,5 +1,13 @@
 # Session notes — 29 Mar 2026 — Class 03: encoding & embedding (start)
 
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:02:56.640`
+- Session conclusion time (teaching concluded cue): `04:47:36.430`
+- Q&A segment: `05:08:34.850` to `05:08:45.779` (`00:00:10.929`)
+- Full recording span (`.vtt` first cue to last cue): `05:05:49.139`
+
+
 **Source:** `modern _Recording.transcript.vtt`  
 **Instructor:** Sunny Savita  
 **Companion PDFs:** `Class-03-encoding-embedding-handwritten.pdf`, `Class-03-encoding-embedding-notion.pdf`
@@ -68,13 +76,3 @@ Order discussed for building intuition:
 
 - `29Mar26/Class-03-encoding-embedding-handwritten.pdf` — 10 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
 - `29Mar26/Class-03-encoding-embedding-notion.pdf` — 1 pages; text extracted (463 chars). Key snippet: Class-03-Embedding-Encoding imp note: use python 3.11 for this practical use only cpython interpreter uv python list uv python install <give the specific version of the python> uv
-
----
-
-## Transcript timing extraction (session + Q&A split)
-
-- Session start time: `00:02:56.640`
-- Session conclusion time (teaching concluded cue): `04:47:36.430`
-- Q&A segment: `05:08:34.850` to `05:08:45.779` (`00:00:10.929`)
-- Full recording span (`.vtt` first cue to last cue): `05:05:49.139`
-

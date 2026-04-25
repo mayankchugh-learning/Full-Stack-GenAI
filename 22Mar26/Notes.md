@@ -1,5 +1,13 @@
 # Session notes — 22 Mar 2026 (from `Recording.transcript.vtt`)
 
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:00:52.590`
+- Session conclusion time (teaching concluded cue): `04:45:16.739`
+- Q&A segment: `04:56:23.160` to `05:15:48.490` (`00:19:25.330`)
+- Full recording span (`.vtt` first cue to last cue): `05:14:55.900`
+
+
 **Focus:** Development environment setup (UV, Python, VS Code) and high-level introduction to Generative AI.  
 **Speakers:** Krish Naik (logistics, course direction); Monal (main teaching — setup + GenAI intro).  
 **Next up:** Transformers (with Sunny, next session).
@@ -185,13 +193,3 @@ Derived from `22Mar26/Recording.transcript.vtt` (Full-Stack GenAI Bootcamp sessi
 - `22Mar26/22-03-2026/uv_master_guide.pdf` — 3 pages; text extracted (4800 chars). Key snippet: 🛸 The Ultimate uv Master Guide (2026) uv is an extremely fast Python package and project manager. It replaces pip , pip-tools , venv , and pyenv in a single, Rust-based binary. 🛠️  | uv init # Creates the pyproject.toml scaffold uv python pin 3.12 # "Pinning" locks the project to a specific Python version What is uv python pin ? It tells uv never to guess which
 - `22Mar26/22-03-2026_handwritten-notes.pdf` — 8 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
 - `22Mar26/uv_master_guide.pdf` — 3 pages; text extracted (4800 chars). Key snippet: 🛸 The Ultimate uv Master Guide (2026) uv is an extremely fast Python package and project manager. It replaces pip , pip-tools , venv , and pyenv in a single, Rust-based binary. 🛠️  | uv init # Creates the pyproject.toml scaffold uv python pin 3.12 # "Pinning" locks the project to a specific Python version What is uv python pin ? It tells uv never to guess which
-
----
-
-## Transcript timing extraction (session + Q&A split)
-
-- Session start time: `00:00:52.590`
-- Session conclusion time (teaching concluded cue): `04:45:16.739`
-- Q&A segment: `04:56:23.160` to `05:15:48.490` (`00:19:25.330`)
-- Full recording span (`.vtt` first cue to last cue): `05:14:55.900`
-

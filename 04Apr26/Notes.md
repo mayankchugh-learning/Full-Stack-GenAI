@@ -1,5 +1,13 @@
 # Session notes — 4 Apr 2026 — Encoding & embedding (Part 1)
 
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:00:07.859`
+- Session conclusion time (teaching concluded cue): `04:09:58.099`
+- Q&A segment: `04:49:25.969` to `05:27:02.968` (`00:37:36.999`)
+- Full recording span (`.vtt` first cue to last cue): `05:26:55.109`
+
+
 **Source:** `session_Recording.cutfile.20260405061846817.transcript.vtt`  
 **Instructor:** Sunny Savita (Krishnak Academy)
 
@@ -49,13 +57,3 @@ That document covers:
 ## PDF sync snapshot (auto-updated: 25 Apr 2026)
 
 - `04Apr26/encoding-handwritten-notes-4-apr.pdf` — 16 pages; scanned/handwritten style (no selectable text extracted). Notes use transcript + manual page review where available.
-
----
-
-## Transcript timing extraction (session + Q&A split)
-
-- Session start time: `00:00:07.859`
-- Session conclusion time (teaching concluded cue): `04:09:58.099`
-- Q&A segment: `04:49:25.969` to `05:27:02.968` (`00:37:36.999`)
-- Full recording span (`.vtt` first cue to last cue): `05:26:55.109`
-

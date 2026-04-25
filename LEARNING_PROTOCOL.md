@@ -57,6 +57,16 @@ For each session transcript the assistant processes, also extract and document t
    - end timestamp in the transcript,
    - short note that this tail is Q&A/housekeeping, not new core topic teaching.
 
+#### Placement rule in `Notes.md`
+
+- Add a section titled exactly: **`## Transcript timing extraction (session + Q&A split)`**.
+- Place this section **at the top of the session `Notes.md`**, directly below the main title (`# ...`), so timing is visible first.
+- Keep a consistent 4-line summary:
+  1. Session start time
+  2. Session conclusion time
+  3. Q&A segment (start → end + duration)
+  4. Full recording span (`.vtt` first cue → last cue)
+
 If exact intent is ambiguous, include a brief note in `Notes.md` explaining which cue was used for “concluded.”
 
 ### Required PDF extraction and notes sync

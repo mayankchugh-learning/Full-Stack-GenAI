@@ -1,5 +1,13 @@
 # Session notes — 15 Mar 2026 (Induction)
 
+## Transcript timing extraction (session + Q&A split)
+
+- Session start time: `00:00:01.663`
+- Session conclusion time (teaching concluded cue): `04:24:26.683`
+- Q&A segment: `04:46:13.193` to `05:18:10.722` (`00:31:57.529`)
+- Full recording span (`.vtt` first cue to last cue): `05:18:09.059`
+
+
 Source: `session_Recording.cutfile.20260316041451852.transcript.vtt` — **Modern Route**: Full-Stack Generative AI & Agentic AI Bootcamp (Krish Naik, Sunny Savita).
 
 This session was **induction and logistics**, not a technical deep-dive. Technical teaching starts from the **next** class (setup, tools, etc.).
@@ -175,12 +183,3 @@ Updated from 16 modules: **+ Cloud Code–related module**, **+ extra project** 
 ---
 
 *Notes synthesized from the session transcript; verify URLs, email addresses, and policy details against your latest dashboard and official emails.*
-
----
-
-## Transcript timing extraction (session + Q&A split)
-
-- Session start time: `00:00:01.663`
-- Session conclusion time (teaching concluded cue): `04:24:26.683`
-- Q&A segment: `04:46:13.193` to `05:18:10.722` (`00:31:57.529`)
-- Full recording span (`.vtt` first cue to last cue): `05:18:09.059`

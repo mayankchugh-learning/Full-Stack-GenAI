@@ -6,6 +6,8 @@ Use this file as the **single place** to track whether each session transcript e
 
 **Protocol:** Transcript → `Notes.md` synthesis and **Converted** / **Done** columns follow [`LEARNING_PROTOCOL.md`](LEARNING_PROTOCOL.md).
 
+**Timing rule:** Each session `Notes.md` should keep `## Transcript timing extraction (session + Q&A split)` **at the top**, right below the `#` title.
+
 ---
 
 ## Legend
@@ -35,8 +37,6 @@ Use this file as the **single place** to track whether each session transcript e
 | `18Apr26` | `_Recording.transcript.vtt` | [x] | [`Notes.md`](18Apr26/Notes.md) | [x] | [x] |
 | `19Apr26` | `Recording.transcript.vtt` | [x] | [`Notes.md`](19Apr26/Notes.md) | [x] | [x] |
 
-**On-disk column** — last full scan: 2026-04-25 (ten dated `.vtt` files through `19Apr26`). Re-check after clone or if you add/remove files.
-
 ### Timing extraction snapshot (session + Q&A split)
 
 | Folder | Session start | Session concluded | Q&A start | Q&A end | Q&A duration |
@@ -53,6 +53,8 @@ Use this file as the **single place** to track whether each session transcript e
 | `19Apr26` | `00:07:25.020` | `02:45:05.429` | `02:52:26.300` | `03:55:56.259` | `01:03:29.959` |
 
 Timing values above were refreshed from local `.vtt` files on 2026-04-25 and mirrored into each session `Notes.md`.
+
+**On-disk column** — last full scan: 2026-04-25 (ten dated `.vtt` files through `19Apr26`). Re-check after clone or if you add/remove files.
 
 ---
 
