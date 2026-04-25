@@ -183,6 +183,46 @@ flowchart LR
 Diagram note:
 - This class stayed at intuition + high-level architecture; deeper multi-head attention internals are expected in the next transformer sessions.
 
+### Clean diagram captures (from attached PDF screenshots)
+
+These are the clearest attached captures aligned with this class discussion.
+
+**A) Transformer vs LLaMA-style decoder architecture**
+
+![Transformer vs LLaMA architecture comparison](../assets/c__Users_madfa_AppData_Roaming_Cursor_User_workspaceStorage_f3f89e91de38651c9ad255dad7068be1_images_image-2200d1c5-c913-4509-8384-c87dd09062ff.png)
+
+- Use this to remember: original transformer shows encoder+decoder stacks, while modern LLM families are commonly decoder-centric variants.
+
+**B) Decoder-side focus for modern LLM families**
+
+![Decoder-side highlighted with LLM examples](../assets/c__Users_madfa_AppData_Roaming_Cursor_User_workspaceStorage_f3f89e91de38651c9ad255dad7068be1_images_image-f7ef5599-89a1-4ee5-a3fc-6a6a5076d21e.png)
+
+- Reinforces instructor mapping: GPT/Llama/Mistral/Qwen/DeepSeek family discussion as decoder-oriented deployment architectures.
+
+**C) Encoder vs decoder process checklist (training-oriented board notes)**
+
+![Encoder and decoder step list with training context](../assets/c__Users_madfa_AppData_Roaming_Cursor_User_workspaceStorage_f3f89e91de38651c9ad255dad7068be1_images_image-3322d32b-49df-4a2f-a6b5-8109f74542bf.png)
+
+- Captures the board checklist: tokenization/embedding/PE/self-attention/FFN/normalization/residual and repeated stacks.
+
+**D) Transformer block emphasis (PE + self-attention + FFN)**
+
+![Transformer architecture with key learning blocks highlighted](../assets/c__Users_madfa_AppData_Roaming_Cursor_User_workspaceStorage_f3f89e91de38651c9ad255dad7068be1_images_image-c5d9f700-13e0-4576-8cce-39aba8902424.png)
+
+- Good quick-revision figure for the "main learning happens through self-attention + FFN" explanation.
+
+**E) Self-attention intuition and contextual meaning**
+
+![Self-attention intuition with contextual word meaning examples](../assets/c__Users_madfa_AppData_Roaming_Cursor_User_workspaceStorage_f3f89e91de38651c9ad255dad7068be1_images_image-f0cd3f86-565c-431a-8508-309b68818d5a.png)
+
+- Matches instructor examples where the same token meaning changes by sentence context (dynamic embeddings via self-attention).
+
+**F) Simplified internal flow sketch (tokens -> embeddings -> PE -> self-attention -> FFN)**
+
+![Simplified internal transformer flow sketch](../assets/c__Users_madfa_AppData_Roaming_Cursor_User_workspaceStorage_f3f89e91de38651c9ad255dad7068be1_images_image-17c368d5-b6cc-4984-ac1a-e7a6c9e415a7.png)
+
+- Useful as a compact "mental model" after reading the formal transformer diagram.
+
 ### 4) Research-paper map used with the flowchart
 
 - Sequence-to-sequence (encoder-decoder): [https://arxiv.org/pdf/1409.3215](https://arxiv.org/pdf/1409.3215)
