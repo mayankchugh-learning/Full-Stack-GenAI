@@ -3,8 +3,8 @@
 ## Transcript timing extraction (session + Q&A split)
 
 - Session start time: `00:07:25.020`
-- Session conclusion time (teaching concluded cue): `02:45:05.429`
-- Q&A segment: `02:52:26.300` to `03:55:56.259` (`01:03:29.959`)
+- Session conclusion time (teaching concluded cue): `02:23:34.000`
+- Q&A segment: `02:28:34.000` to `03:47:12.000` (`01:18:38.000`)
 - Full recording span (`.vtt` first cue to last cue): `03:48:31.239`
 
 
