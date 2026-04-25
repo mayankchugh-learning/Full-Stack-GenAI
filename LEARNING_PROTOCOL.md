@@ -46,6 +46,31 @@ When the assistant **finds or is given** a session **`.vtt`** file (usually unde
    - In **`VTT_CHECKLIST.md`**: set **Converted** and **Done** to `[x]` for that folder’s transcript row.
    - In **`LEARNING_CHECKLIST.md`**: mirror the same `.vtt` row for that session, if present.
 
+### Required timing extraction from `.vtt` (session + Q&A split)
+
+For each session transcript the assistant processes, also extract and document timing in that folder’s **`Notes.md`** (or equivalent):
+
+1. **Session start time** — first clear cue where class teaching starts (not just waiting-room chat).
+2. **Session conclusion time** — where the instructor explicitly concludes / says class is over (or the nearest unambiguous equivalent).
+3. **Q&A segment timing** — identify the remaining portion as post-class doubts/Q&A, including:
+   - start of Q&A (or “if any doubt stay” handoff),
+   - end timestamp in the transcript,
+   - short note that this tail is Q&A/housekeeping, not new core topic teaching.
+
+If exact intent is ambiguous, include a brief note in `Notes.md` explaining which cue was used for “concluded.”
+
+### Required PDF extraction and notes sync
+
+When session PDFs exist in a folder (for example Notion exports, handwritten notes, class handouts), the assistant must:
+
+1. **Read/extract PDF content** before finalizing notes:
+   - use text extraction for text PDFs;
+   - for scanned/handwritten PDFs, use page rendering/OCR-style inspection as needed.
+2. **Update that folder’s `Notes.md`** so PDF findings are reflected (summary bullets, page-wise outline, links, key terms, or corrections to existing notes).
+3. **State coverage clearly** in notes when relevant (e.g., how many pages reviewed, text-extractable vs scanned pages).
+
+Do not treat PDFs as “optional context” when the user asks to sync notes for a session.
+
 This **does not** authorize checking off **mastery** lines (e.g. “run notebook”, “relate to April”, “session understanding” in the sense of *you* having studied the material) — those stay **§1** / learner-only. If you want to keep a personal sign-off column independent of the assistant, rename or add a separate note in that folder’s checklist; otherwise the **VTT row** is considered closed after step 2.
 
 ---
@@ -60,3 +85,37 @@ This **does not** authorize checking off **mastery** lines (e.g. “run notebook
 | Summarize findings in the reply | (no change to §1 learner-only rows) |
 
 If unsure, **leave the box unchecked** and describe what you observed in the conversation instead.
+
+---
+
+## When adding a new date folder (`DDMonYY`)
+
+Use this checklist whenever a new session folder is created (example: `25Apr26/`).
+
+### Items to add in the new folder
+
+1. **`Notes.md`**
+   - Add session summary sections and placeholders for transcript/PDF sync notes.
+2. **`CHECKLIST.md`**
+   - Include rows for transcript conversion and learner-only mastery/run items.
+3. **Session source files**
+   - Keep available class artifacts in the folder (`.vtt`, `.pdf`, notebooks, exports, links list, etc.).
+4. **Optional class-specific checklist**
+   - Add `CHECKLIST-Class-*.md` only when that session has separate class-level tracking needs.
+
+### Files to update outside the folder
+
+1. **`INVENTORY.md`**
+   - Add the new folder and key files so repo inventory stays complete.
+2. **`LEARNING_CHECKLIST.md`**
+   - Add/extend that session row(s) with unchecked learner-only boxes by default.
+3. **`VTT_CHECKLIST.md`** (if transcript exists or is expected)
+   - Add the session row for transcript conversion tracking.
+4. **Root `LEARNING_PROTOCOL.md`**
+   - Update only if process/policy changed (not required for every new date folder).
+
+### Completion rules reminder for new folders
+
+- Do **not** check learner-only completion (`run`, `understand`, mastery) without explicit user confirmation.
+- If `.vtt` is processed into `Notes.md`, assistant may mark only the transcript-conversion row(s) as complete per § WebVTT.
+- If PDFs exist, sync their content into `Notes.md` before treating notes as updated.
