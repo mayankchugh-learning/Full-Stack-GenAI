@@ -7,7 +7,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Folder-level checklist:** The repo root has [`CHECKLIST.md`](CHECKLIST.md) for **Root (`/`)** tasks. Each dated session folder and each `Assignment-*` / `Class-*` folder has its own **`CHECKLIST.md`** (same tasks as the matching section below). Update the folder copy and this file together so checkboxes stay aligned.
 
-**Session understanding (each session folder):** Under **Mastery tasks**, complete the **`Notes.md`** item—read and internalize that file, or **create/update** `Notes.md` from the transcript and handouts until you can explain the session in your own words. Example shape: [`15Mar26/Notes.md`](15Mar26/Notes.md).
+**Session understanding (each session folder):** Under **Mastery tasks**, complete the **`Notes.md`** item—read and internalize that file, or **create/update** `Notes.md` from the transcript and handouts until you can explain the session in your own words. Example shape: [`01-Day-15Mar26/Notes.md`](01-Day-15Mar26/Notes.md).
 
 **Folder order:** Below, dated session folders are listed **oldest → newest** (ascending by date). `Assignment-*` and `Class-*` folders come last.
 
@@ -57,7 +57,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 ---
 
-## `15Mar26`
+## `01-Day-15Mar26`
 
 **Files**
 
@@ -66,18 +66,18 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 **Mastery tasks**
 
 - [x] Tie this session to a topic in your course timeline (intro, tools, etc.) in one sentence.
-- [x] **Session understanding:** Read [`Notes.md`](15Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
+- [x] **Session understanding:** Read [`Notes.md`](01-Day-15Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
 - [x] **Session quiz (self-check):** Optional quiz in [`session-quiz-app/`](session-quiz-app/) for `15mar26` — **you confirmed completion** (Apr 2026).
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `session_Recording.cutfile.20260316041451852.transcript.vtt` | [`Notes.md`](15Mar26/Notes.md) | [x] | [x] |
+| `session_Recording.cutfile.20260316041451852.transcript.vtt` | [`Notes.md`](01-Day-15Mar26/Notes.md) | [x] | [x] |
 
 ---
 
-## `22Mar26` — UV / March 22 bundle
+## `02-Day-22Mar26` — UV / March 22 bundle
 
 **Files**
 
@@ -96,17 +96,17 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 - [ ] Follow `uv_master_guide.pdf` (or class steps): create a project with `uv` and explain `uv.lock`.
 - [ ] Decide whether you still need the zip if the folder is extracted; avoid duplicate study paths.
 - [ ] Write a cheat sheet: 5 `uv` commands you will actually use.
-- [ ] **Session understanding:** Read [`Notes.md`](22Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
+- [ ] **Session understanding:** Read [`Notes.md`](02-Day-22Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `Recording.transcript.vtt` | [`Notes.md`](22Mar26/Notes.md) | [x] | [x] |
+| `Recording.transcript.vtt` | [`Notes.md`](02-Day-22Mar26/Notes.md) | [x] | [x] |
 
 ---
 
-## `28Mar26` — March 28 class + `class/` project
+## `03-Day-28Mar26` — March 28 class + `class/` project
 
 **Files (top level)**
 
@@ -116,7 +116,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 - [x] `test.py`
 - [x] `Session_Recording.cutfile.20260329093221035.transcript.vtt`
 
-**Files (`28Mar26/class/`)**
+**Files (`03-Day-28Mar26/class/`)**
 
 - [x] `pyproject.toml`
 - [x] `uv.lock`
@@ -129,20 +129,20 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Mastery tasks**
 
-- [ ] `cd 28Mar26/class` → `uv sync` → run `encoding-embedding.ipynb`.
-- [ ] List dependencies you care about from `pyproject.toml` (3+) — _see [`Notes.md`](28Mar26/Notes.md) for a starter list; confirm from the file._
+- [ ] `cd 03-Day-28Mar26/class` → `uv sync` → run `encoding-embedding.ipynb`.
+- [ ] List dependencies you care about from `pyproject.toml` (3+) — _see [`Notes.md`](03-Day-28Mar26/Notes.md) for a starter list; confirm from the file._
 - [ ] Relate this session to encoding/embedding topics from April notebooks.
-- [ ] **Session understanding:** Read [`Notes.md`](28Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
+- [ ] **Session understanding:** Read [`Notes.md`](03-Day-28Mar26/Notes.md); expand it if needed until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 | --------------- | --------------- | ---------- | ---------------- |
-| `Session_Recording.cutfile.20260329093221035.transcript.vtt` | [`Notes.md`](28Mar26/Notes.md) | [x] | [x] |
+| `Session_Recording.cutfile.20260329093221035.transcript.vtt` | [`Notes.md`](03-Day-28Mar26/Notes.md) | [x] | [x] |
 
 ---
 
-## `29Mar26` — Class 03 encoding
+## `04-Day-29Mar26` — Class 03 encoding
 
 **Files**
 
@@ -153,18 +153,18 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 **Mastery tasks**
 
 - [ ] Reconcile handwritten vs Notion PDF: one combined outline in your words.
-- [ ] Link concepts here to `04Apr26` / `28Mar26/class` labs.
-- [ ] **Session understanding:** Read [`Notes.md`](29Mar26/Notes.md) until you can summarize the session without the recording.
+- [ ] Link concepts here to `05-Day-04Apr26` / `03-Day-28Mar26/class` labs.
+- [ ] **Session understanding:** Read [`Notes.md`](04-Day-29Mar26/Notes.md) until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `modern _Recording.transcript.vtt` | [`Notes.md`](29Mar26/Notes.md) | [x] | [x] |
+| `modern _Recording.transcript.vtt` | [`Notes.md`](04-Day-29Mar26/Notes.md) | [x] | [x] |
 
 ---
 
-## `04Apr26` — Encoding (session)
+## `05-Day-04Apr26` — Encoding (session)
 
 **Files**
 
@@ -178,17 +178,17 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 - [ ] Run through `encoding.ipynb` cells; fix any import/kernel issues.
 - [ ] Reproduce one encoding example from memory (or mini script).
 - [ ] Read the session markdown + PDF; add 3 “exam-style” questions with answers in your notes.
-- [ ] **Session understanding:** Read [`Notes.md`](04Apr26/Notes.md) and [`session_04Apr26_encoding_embedding_notes.md`](04Apr26/session_04Apr26_encoding_embedding_notes.md) until you can summarize the session without the recording.
+- [ ] **Session understanding:** Read [`Notes.md`](05-Day-04Apr26/Notes.md) and [`session_04Apr26_encoding_embedding_notes.md`](05-Day-04Apr26/session_04Apr26_encoding_embedding_notes.md) until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `session_Recording.cutfile.20260405061846817.transcript.vtt` | [`Notes.md`](04Apr26/Notes.md) (+ detailed notes file) | [x] | [x] |
+| `session_Recording.cutfile.20260405061846817.transcript.vtt` | [`Notes.md`](05-Day-04Apr26/Notes.md) (+ detailed notes file) | [x] | [x] |
 
 ---
 
-## `05Apr26` — Embedding / encoding materials
+## `06-Day-05Apr26` — Embedding / encoding materials
 
 **Files**
 
@@ -203,20 +203,20 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Mastery tasks**
 
-- [ ] Compare this notebook with `04Apr26/encoding.ipynb`; note what is duplicated vs new.
+- [ ] Compare this notebook with `05-Day-04Apr26/encoding.ipynb`; note what is duplicated vs new.
 - [ ] Skim the Word2Vec paper PDF for purpose and one figure/takeaway.
 - [ ] Summarize embedding vs encoding in your own words (short paragraph).
-- [ ] **Session understanding:** Read [`Notes.md`](05Apr26/Notes.md) until you can summarize the session without the recording.
+- [ ] **Session understanding:** Read [`Notes.md`](06-Day-05Apr26/Notes.md) until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `GMT20260405-142945_Recording.transcript.vtt` | [`Notes.md`](05Apr26/Notes.md) | [x] | [x] |
+| `GMT20260405-142945_Recording.transcript.vtt` | [`Notes.md`](06-Day-05Apr26/Notes.md) | [x] | [x] |
 
 ---
 
-## `09Apr26`
+## `07-Day-09Apr26`
 
 **Files**
 
@@ -226,7 +226,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 **Mastery tasks**
 
 - [ ] Decide if you will use this folder for a future session or delete/ignore it.
-- [ ] **Session understanding:** When you add materials, add [`Notes.md`](15Mar26/Notes.md)-style notes and tick this when you can summarize that session.
+- [ ] **Session understanding:** When you add materials, add [`Notes.md`](01-Day-15Mar26/Notes.md)-style notes and tick this when you can summarize that session.
 
 **`.vtt`**
 
@@ -236,30 +236,30 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 ---
 
-## `11Apr26`
+## `08-Day-11Apr26`
 
 **Files**
 
 - [x] `_Recording.transcript.vtt`
-- [x] [`Notes.md`](11Apr26/Notes.md)
-- [x] [`Class-06-11-Apr-handwritten-notes-word2vec.pdf`](11Apr26/Class-06-11-Apr-handwritten-notes-word2vec.pdf)
-- [x] [`classical_word_embedding.ipynb`](11Apr26/classical_word_embedding.ipynb)
+- [x] [`Notes.md`](08-Day-11Apr26/Notes.md)
+- [x] [`Class-06-11-Apr-handwritten-notes-word2vec.pdf`](08-Day-11Apr26/Class-06-11-Apr-handwritten-notes-word2vec.pdf)
+- [x] [`classical_word_embedding.ipynb`](08-Day-11Apr26/classical_word_embedding.ipynb)
 
 **Mastery tasks**
 
-- [ ] Run [`11Apr26/classical_word_embedding.ipynb`](11Apr26/classical_word_embedding.ipynb) and note any env/dependency issues.
-- [ ] Compare with [`12Apr26/classical_word_embedding.ipynb`](12Apr26/classical_word_embedding.ipynb) / [`12Apr26/Notes.md`](12Apr26/Notes.md) for the extended walkthrough.
-- [ ] **Session understanding:** Read [`Notes.md`](11Apr26/Notes.md) until you can summarize the session without the recording.
+- [ ] Run [`08-Day-11Apr26/classical_word_embedding.ipynb`](08-Day-11Apr26/classical_word_embedding.ipynb) and note any env/dependency issues.
+- [ ] Compare with [`09-Day-12Apr26/classical_word_embedding.ipynb`](09-Day-12Apr26/classical_word_embedding.ipynb) / [`09-Day-12Apr26/Notes.md`](09-Day-12Apr26/Notes.md) for the extended walkthrough.
+- [ ] **Session understanding:** Read [`Notes.md`](08-Day-11Apr26/Notes.md) until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `_Recording.transcript.vtt` | [`Notes.md`](11Apr26/Notes.md) | [x] | [x] |
+| `_Recording.transcript.vtt` | [`Notes.md`](08-Day-11Apr26/Notes.md) | [x] | [x] |
 
 ---
 
-## `12Apr26` — Word2Vec (practical)
+## `09-Day-12Apr26` — Word2Vec (practical)
 
 **Files**
 
@@ -278,77 +278,77 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 - [ ] Train or load a small model in `custom_word2vec_training.ipynb`; record hyperparameters you used.
 - [ ] Explain CBOW vs skip-gram without looking at notes.
 - [ ] Complete analogies or `most_similar` on your trained model and save outputs.
-- [ ] **Session understanding:** Read [`Notes.md`](12Apr26/Notes.md); expand it if needed until you can summarize the session without the recording.
+- [ ] **Session understanding:** Read [`Notes.md`](09-Day-12Apr26/Notes.md); expand it if needed until you can summarize the session without the recording.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `m_Recording.transcript (1).vtt` | [`Notes.md`](12Apr26/Notes.md) | [x] | [x] |
+| `m_Recording.transcript (1).vtt` | [`Notes.md`](09-Day-12Apr26/Notes.md) | [x] | [x] |
 
 ---
 
-## `18Apr26` — April 18 session
+## `10-Day-18Apr26` — April 18 session
 
 **Files**
 
-- [x] [`CHECKLIST.md`](18Apr26/CHECKLIST.md)
-- [x] [`Notes.md`](18Apr26/Notes.md)
-- [x] [`SOTA-llm-embedding.ipynb`](18Apr26/SOTA-llm-embedding.ipynb)
-- [x] [`Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb`](18Apr26/Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb)
-- [x] [`Class-08-18-Apr-Notion-Notes.pdf`](18Apr26/Class-08-18-Apr-Notion-Notes.pdf)
-- [x] [`Class-08-18-Apr-Hand-written-notes.pdf`](18Apr26/Class-08-18-Apr-Hand-written-notes.pdf)
-- [x] [`images.jpg`](18Apr26/images.jpg)
+- [x] [`CHECKLIST.md`](10-Day-18Apr26/CHECKLIST.md)
+- [x] [`Notes.md`](10-Day-18Apr26/Notes.md)
+- [x] [`SOTA-llm-embedding.ipynb`](10-Day-18Apr26/SOTA-llm-embedding.ipynb)
+- [x] [`Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb`](10-Day-18Apr26/Class-08-18-Apr-SOTA-Transformer-Embedding-Methods/SOTA-llm-embedding.ipynb)
+- [x] [`Class-08-18-Apr-Notion-Notes.pdf`](10-Day-18Apr26/Class-08-18-Apr-Notion-Notes.pdf)
+- [x] [`Class-08-18-Apr-Hand-written-notes.pdf`](10-Day-18Apr26/Class-08-18-Apr-Hand-written-notes.pdf)
+- [x] [`images.jpg`](10-Day-18Apr26/images.jpg)
 - [x] `_Recording.transcript.vtt` _(local; `*.vtt` gitignored)_
 
 **Mastery tasks**
 
-- [x] Name the session topic (one line) once you have the materials — **SOTA Embedding model** (_see [`Notes.md`](18Apr26/Notes.md)_).
+- [x] Name the session topic (one line) once you have the materials — **SOTA Embedding model** (_see [`Notes.md`](10-Day-18Apr26/Notes.md)_).
 - [x] Work through each notebook or PDF you add; note dependencies (`uv sync` / kernel).
-- [ ] Link this session to earlier units (e.g. `12Apr26` / `05Apr26`) in your own outline.
-- [x] **Session understanding:** Read [`Notes.md`](18Apr26/Notes.md) until you can summarize the session without the recording.
+- [ ] Link this session to earlier units (e.g. `09-Day-12Apr26` / `06-Day-05Apr26`) in your own outline.
+- [x] **Session understanding:** Read [`Notes.md`](10-Day-18Apr26/Notes.md) until you can summarize the session without the recording.
 - [x] **Session quiz (self-check):** Optional quiz in [`session-quiz-app/`](session-quiz-app/) for `18apr26` — **you confirmed completion** (Apr 2026).
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `_Recording.transcript.vtt` | [`Notes.md`](18Apr26/Notes.md) | [x] | [x] |
+| `_Recording.transcript.vtt` | [`Notes.md`](10-Day-18Apr26/Notes.md) | [x] | [x] |
 
 ---
 
-## `19Apr26` — Class 09 materials
+## `11-Day-19Apr26` — Class 09 materials
 
 **Files**
 
-- [x] [`CHECKLIST.md`](19Apr26/CHECKLIST.md)
-- [x] [`Class-09-19-Apr-Notion-Notes.pdf`](19Apr26/Class-09-19-Apr-Notion-Notes.pdf)
-- [x] [`Class-09-19-Apr-Handwritten-Notes.pdf`](19Apr26/Class-09-19-Apr-Handwritten-Notes.pdf)
-- [x] [`Notes.md`](19Apr26/Notes.md)
+- [x] [`CHECKLIST.md`](11-Day-19Apr26/CHECKLIST.md)
+- [x] [`Class-09-19-Apr-Notion-Notes.pdf`](11-Day-19Apr26/Class-09-19-Apr-Notion-Notes.pdf)
+- [x] [`Class-09-19-Apr-Handwritten-Notes.pdf`](11-Day-19Apr26/Class-09-19-Apr-Handwritten-Notes.pdf)
+- [x] [`Notes.md`](11-Day-19Apr26/Notes.md)
 - [x] `Recording.transcript.vtt` _(local; `*.vtt` gitignored)_
 
 **Mastery tasks**
 
 - [ ] Name the session topic in one line after reviewing both PDFs.
-- [ ] Create or update [`Notes.md`](19Apr26/Notes.md) with your summary and key takeaways.
+- [ ] Create or update [`Notes.md`](11-Day-19Apr26/Notes.md) with your summary and key takeaways.
 - [ ] Link this session to earlier units in your own outline.
-- [ ] **Session understanding:** Read [`Notes.md`](19Apr26/Notes.md) until you can summarize the session without the source files.
+- [ ] **Session understanding:** Read [`Notes.md`](11-Day-19Apr26/Notes.md) until you can summarize the session without the source files.
 
 **`.vtt` → notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `Recording.transcript.vtt` | [`Notes.md`](19Apr26/Notes.md) | [x] | [x] |
+| `Recording.transcript.vtt` | [`Notes.md`](11-Day-19Apr26/Notes.md) | [x] | [x] |
 
 ---
 
-## `25Ap26` — Class 10 materials
+## `12-Day-25Ap26` — Class 10 materials
 
 **Files**
 
-- [x] [`CHECKLIST.md`](25Ap26/CHECKLIST.md)
-- [x] [`Notes.md`](25Ap26/Notes.md)
-- [x] [`Class-10-25-Apr-Handwritten-notes.pdf`](25Ap26/Class-10-25-Apr-Handwritten-notes.pdf)
+- [x] [`CHECKLIST.md`](12-Day-25Ap26/CHECKLIST.md)
+- [x] [`Notes.md`](12-Day-25Ap26/Notes.md)
+- [x] [`Class-10-25-Apr-Handwritten-notes.pdf`](12-Day-25Ap26/Class-10-25-Apr-Handwritten-notes.pdf)
 - [x] `Recording.transcript_.vtt` _(local; `*.vtt` gitignored)_
 
 **Mastery tasks**
@@ -356,13 +356,13 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 - [ ] Name the session topic in one line after reviewing the PDF + transcript.
 - [ ] Re-explain the 5 key encoder topics from memory: positional encoding, self-attention, layer normalization, residual connection, FFN.
 - [ ] Write one concrete example each for residual connection and positional encoding.
-- [ ] **Session understanding:** Read [`Notes.md`](25Ap26/Notes.md) until you can summarize the session without source files.
+- [ ] **Session understanding:** Read [`Notes.md`](12-Day-25Ap26/Notes.md) until you can summarize the session without source files.
 
 **`.vtt` -> notes (keep original `.vtt`)**
 
 | Original `.vtt` | Your notes file | Converted? | You confirm done |
 |-----------------|-----------------|------------|-------------------|
-| `Recording.transcript_.vtt` | [`Notes.md`](25Ap26/Notes.md) | [x] | [x] |
+| `Recording.transcript_.vtt` | [`Notes.md`](12-Day-25Ap26/Notes.md) | [x] | [x] |
 
 ---
 
@@ -377,7 +377,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 - [ ] Read the full assignment brief.
 - [ ] Complete required deliverables (code + write-up as specified).
 - [ ] Self-grade against rubric if provided; list gaps.
-- [ ] **Session understanding:** Optional `Notes.md` (same idea as [`15Mar26/Notes.md`](15Mar26/Notes.md)) capturing assignment goals, your approach, and lessons learned.
+- [ ] **Session understanding:** Optional `Notes.md` (same idea as [`01-Day-15Mar26/Notes.md`](01-Day-15Mar26/Notes.md)) capturing assignment goals, your approach, and lessons learned.
 
 **`.vtt`**
 
@@ -396,9 +396,9 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 **Mastery tasks**
 
-- [ ] Run the notebook; compare with `12Apr26/classical_word_embedding.ipynb` (differences?).
-- [ ] If content overlaps `12Apr26`, merge your study notes so you have one canonical Word2Vec summary.
-- [ ] **Session understanding:** Optional `Notes.md` (same idea as [`15Mar26/Notes.md`](15Mar26/Notes.md)) if this folder is your primary study copy for that class.
+- [ ] Run the notebook; compare with `09-Day-12Apr26/classical_word_embedding.ipynb` (differences?).
+- [ ] If content overlaps `09-Day-12Apr26`, merge your study notes so you have one canonical Word2Vec summary.
+- [ ] **Session understanding:** Optional `Notes.md` (same idea as [`01-Day-15Mar26/Notes.md`](01-Day-15Mar26/Notes.md)) if this folder is your primary study copy for that class.
 
 **`.vtt`**
 
@@ -410,7 +410,7 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 ## Global “mastery” checks (whole bootcamp)
 
-- [ ] Every **dated session folder**: **Session understanding** (`Notes.md` read or created, per [`15Mar26/Notes.md`](15Mar26/Notes.md)) checked where that session is in scope.
+- [ ] Every **dated session folder**: **Session understanding** (`Notes.md` read or created, per [`01-Day-15Mar26/Notes.md`](01-Day-15Mar26/Notes.md)) checked where that session is in scope.
 - [ ] All folders with a **`.vtt`**: **`Notes.md`** (or equivalent) reflects the transcript; **original `.vtt` kept**; **VTT checklist** rows aligned (see [`LEARNING_PROTOCOL.md`](LEARNING_PROTOCOL.md)).
 - [ ] Every `.ipynb` in scope either run end-to-end or intentionally skipped with reason noted.
 - [ ] One page “map” of topics: encoding → embeddings → Word2Vec → (next units you add).

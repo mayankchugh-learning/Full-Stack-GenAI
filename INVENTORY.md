@@ -28,23 +28,23 @@ Sorted **by date ascending**, then non-dated.
 
 | Folder | Files | ~Size | Contents (summary) |
 |--------|------:|------:|--------------------|
-| `15Mar26` | 1 | small | Session transcript |
-| `22Mar26` | 9 | ~13 MB | Zip, UV guide PDFs, notes, transcript |
-| `28Mar26` | 13+ | varies | Class PDFs, `class/` uv project (see below) |
-| `29Mar26` | 3 | ~6 MB | Class 03 encoding PDFs, transcript |
-| `04Apr26` | 4 | ~6 MB | Encoding notebook, notes, PDF |
-| `05Apr26` | 8 | ~10 MB | Encoding notebook copy, PDFs, transcript |
-| `09Apr26` | 0 | — | Empty placeholder folder |
-| `11Apr26` | 6 | ~15 MB | Transcript + Notes + moved Word2Vec notebook/PDF + checklists |
-| `12Apr26` | 8 | ~35 MB | Word2Vec notebooks, notes, PDFs, `data/` stories |
-| `18Apr26` | 14 | varies | Class 08 SOTA embeddings assets (notebook copies, PDFs, images, notes/checklist, transcript) |
-| `19Apr26` | 5 | ~8 MB | Class 09 intro-transformer session (Notion + handwritten PDFs, notes/checklist, transcript) |
-| `25Ap26` | 4 | ~7 MB | Class 10 handwritten notes PDF + transcript + notes/checklist |
+| `01-Day-15Mar26` | 1 | small | Session transcript |
+| `02-Day-22Mar26` | 9 | ~13 MB | Zip, UV guide PDFs, notes, transcript |
+| `03-Day-28Mar26` | 13+ | varies | Class PDFs, `class/` uv project (see below) |
+| `04-Day-29Mar26` | 3 | ~6 MB | Class 03 encoding PDFs, transcript |
+| `05-Day-04Apr26` | 4 | ~6 MB | Encoding notebook, notes, PDF |
+| `06-Day-05Apr26` | 8 | ~10 MB | Encoding notebook copy, PDFs, transcript |
+| `07-Day-09Apr26` | 0 | — | Empty placeholder folder |
+| `08-Day-11Apr26` | 6 | ~15 MB | Transcript + Notes + moved Word2Vec notebook/PDF + checklists |
+| `09-Day-12Apr26` | 8 | ~35 MB | Word2Vec notebooks, notes, PDFs, `data/` stories |
+| `10-Day-18Apr26` | 14 | varies | Class 08 SOTA embeddings assets (notebook copies, PDFs, images, notes/checklist, transcript) |
+| `11-Day-19Apr26` | 5 | ~8 MB | Class 09 intro-transformer session (Notion + handwritten PDFs, notes/checklist, transcript) |
+| `12-Day-25Ap26` | 4 | ~7 MB | Class 10 handwritten notes PDF + transcript + notes/checklist |
 | `Assignment-01-Text_Encoding` | 1 | tiny | Assignment PDF |
 
 ---
 
-## `15Mar26`
+## `01-Day-15Mar26`
 
 | File | Type |
 |------|------|
@@ -52,7 +52,7 @@ Sorted **by date ascending**, then non-dated.
 
 ---
 
-## `22Mar26` — UV intro / March 22 bundle
+## `02-Day-22Mar26` — UV intro / March 22 bundle
 
 | File | Type |
 |------|------|
@@ -64,7 +64,7 @@ Sorted **by date ascending**, then non-dated.
 
 ---
 
-## `28Mar26` — March 28 class + `class/` project
+## `03-Day-28Mar26` — March 28 class + `class/` project
 
 | File | Type |
 |------|------|
@@ -75,7 +75,7 @@ Sorted **by date ascending**, then non-dated.
 
 ---
 
-## `29Mar26` — Class 03 encoding
+## `04-Day-29Mar26` — Class 03 encoding
 
 | File | Type |
 |------|------|
@@ -84,7 +84,7 @@ Sorted **by date ascending**, then non-dated.
 
 ---
 
-## `04Apr26` — Encoding
+## `05-Day-04Apr26` — Encoding
 
 | File | Type |
 |------|------|
@@ -95,7 +95,7 @@ Sorted **by date ascending**, then non-dated.
 
 ---
 
-## `05Apr26` — Embedding / Word2Vec materials
+## `06-Day-05Apr26` — Embedding / Word2Vec materials
 
 | File | Type |
 |------|------|
@@ -107,13 +107,13 @@ Sorted **by date ascending**, then non-dated.
 
 ---
 
-## `09Apr26`
+## `07-Day-09Apr26`
 
 Empty (no tracked files in inventory snapshot).
 
 ---
 
-## `11Apr26`
+## `08-Day-11Apr26`
 
 | File | Type |
 |------|------|
@@ -125,7 +125,7 @@ Empty (no tracked files in inventory snapshot).
 
 ---
 
-## `12Apr26` — Word2Vec practicals
+## `09-Day-12Apr26` — Word2Vec practicals
 
 | File | Type |
 |------|------|
@@ -137,7 +137,7 @@ Empty (no tracked files in inventory snapshot).
 
 ---
 
-## `18Apr26` — April 18 session
+## `10-Day-18Apr26` — April 18 session
 
 | File | Type |
 |------|------|
@@ -152,7 +152,7 @@ Empty (no tracked files in inventory snapshot).
 
 ---
 
-## `19Apr26` — April 19 session (Class 09)
+## `11-Day-19Apr26` — April 19 session (Class 09)
 
 | File | Type |
 |------|------|
@@ -162,7 +162,7 @@ Empty (no tracked files in inventory snapshot).
 
 ---
 
-## `25Ap26` — April 25 session (Class 10)
+## `12-Day-25Ap26` — April 25 session (Class 10)
 
 | File | Type |
 |------|------|
@@ -182,8 +182,8 @@ Empty (no tracked files in inventory snapshot).
 
 ## `Class-06-11-Apr-Word2vec-with-practical` (migrated)
 
-This folder was removed; files were moved into [`11Apr26/`](11Apr26/).  
-Use `11Apr26` as the canonical location.
+This folder was removed; files were moved into [`08-Day-11Apr26/`](08-Day-11Apr26/).  
+Use `08-Day-11Apr26` as the canonical location.
 
 ---
 
@@ -191,6 +191,6 @@ Use `11Apr26` as the canonical location.
 
 - **`.ipynb`** — Run with Jupyter; kernels described in `README.md` (Option A vs B).
 - **`.vtt`** — Session transcripts; your `.gitignore` may exclude `**/*.vtt` from commits.
-- **`28Mar26/class`** — Full ML stack: use `uv sync` inside that directory (Python 3.13+ per its `pyproject.toml`).
+- **`03-Day-28Mar26/class`** — Full ML stack: use `uv sync` inside that directory (Python 3.13+ per its `pyproject.toml`).
 
 To refresh this list after adding files, re-run a folder listing or update this file by hand.

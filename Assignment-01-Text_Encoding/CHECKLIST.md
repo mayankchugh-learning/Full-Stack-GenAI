@@ -15,7 +15,7 @@ Mirror of this folder’s section in **[`LEARNING_CHECKLIST.md`](../LEARNING_CHE
 - [ ] Read the full assignment brief.
 - [ ] Complete required deliverables (code + write-up as specified).
 - [ ] Self-grade against rubric if provided; list gaps.
-- [ ] **Session understanding:** Optional `Notes.md` (same idea as [`../15Mar26/Notes.md`](../15Mar26/Notes.md)) capturing assignment goals, your approach, and lessons learned.
+- [ ] **Session understanding:** Optional `Notes.md` (same idea as [`../01-Day-15Mar26/Notes.md`](../01-Day-15Mar26/Notes.md)) capturing assignment goals, your approach, and lessons learned.
 
 ## `.vtt`
 

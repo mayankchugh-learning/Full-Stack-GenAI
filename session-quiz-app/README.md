@@ -37,7 +37,7 @@ python -m http.server 8080
 4. Stop the server: focus the terminal and press **Ctrl+C**.
 
 **Open a specific session quiz directly:** append `?session=` and the quiz id, e.g.  
-`http://localhost:8080/session-quiz-app/?session=15mar26` for **`15Mar26`**.
+`http://localhost:8080/session-quiz-app/?session=15mar26` for **`01-Day-15Mar26`**.
 
 **Note:** If you start the server at the **repository root** and open only `http://localhost:8080/` with **no** `index.html` at the root, the browser may show a **directory listing**. Use **`/session-quiz-app/`** or rely on the root redirect `index.html` at repo root.
 

@@ -13,7 +13,7 @@
 
 ## Prerequisites
 
-- **Python:** 3.11+ for most notebooks. The **`28Mar26/class`** project declares **`>=3.13`** in `pyproject.toml`; use Python 3.13 there if the resolver complains.
+- **Python:** 3.11+ for most notebooks. The **`03-Day-28Mar26/class`** project declares **`>=3.13`** in `pyproject.toml`; use Python 3.13 there if the resolver complains.
 - **Git** (to clone this repo).
 - **[uv](https://docs.astral.sh/uv/getting-started/installation/)** for installing packages (this repo uses **uv**, not standalone **pip**).
 
@@ -24,12 +24,12 @@ Install uv (pick one):
 
 ---
 
-## Option A - Full ML stack (`28Mar26/class`)
+## Option A - Full ML stack (`03-Day-28Mar26/class`)
 
 Use this for the **encoding/embedding** project with PyTorch, `sentence-transformers`, LangChain, etc.
 
 ```powershell
-cd 28Mar26\class
+cd 03-Day-28Mar26\class
 uv venv
 uv sync
 ```
@@ -49,7 +49,7 @@ Open notebooks and choose the **`bootcamp-28mar-class`** kernel.
 
 ---
 
-## Option B - Lighter setup (`04Apr26`, `12Apr26` notebooks)
+## Option B - Lighter setup (`05-Day-04Apr26`, `09-Day-12Apr26` notebooks)
 
 From the **repository root**, dependencies live in **`pyproject.toml`** (locked in **`uv.lock`**). Install **without pip**:
 
@@ -92,9 +92,9 @@ uv run python -m ipykernel install --user --name bootcamp-notes
 
 | Issue | What to try |
 |--------|-------------|
-| **Torch / CUDA / large installs** | Use **Option A** (`28Mar26/class` + `uv sync`) so versions match that folder's `pyproject.toml` / `uv.lock`. |
+| **Torch / CUDA / large installs** | Use **Option A** (`03-Day-28Mar26/class` + `uv sync`) so versions match that folder's `pyproject.toml` / `uv.lock`. |
 | **`ModuleNotFoundError`** | Run installs from the same directory as the matching `pyproject.toml`, then `uv sync` again. Use **`uv run python ...`** so the project venv is used. |
-| **Nested `class` / Git errors** | `28Mar26/class` should not contain its own `.git` inside this repo. Do not commit `.venv`. |
+| **Nested `class` / Git errors** | `03-Day-28Mar26/class` should not contain its own `.git` inside this repo. Do not commit `.venv`. |
 
 ---
 
@@ -110,5 +110,5 @@ Static HTML/JS quizzes per session folder. **How to start and open:** see **[`se
 |------|--------|
 | `session-quiz-app/` | Browser quizzes; see `session-quiz-app/README.md` |
 | `pyproject.toml`, `uv.lock` (repo root) | Option B: `uv sync` for encoding + Word2Vec notebooks |
-| `28Mar26/class/` | Option A: separate `pyproject.toml` + `uv.lock`, full stack |
+| `03-Day-28Mar26/class/` | Option A: separate `pyproject.toml` + `uv.lock`, full stack |
 | `requirements.txt` | Legacy reference only; installs go through **uv** and root `pyproject.toml` |

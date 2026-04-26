@@ -37,7 +37,7 @@ Typical targets include per-session **`CHECKLIST.md`**, repo-wide **`LEARNING_CH
 
 ## WebVTT (`.vtt`) — assistant workflow (exception to §1 for conversion work)
 
-When the assistant **finds or is given** a session **`.vtt`** file (usually under a dated folder such as `28Mar26/`):
+When the assistant **finds or is given** a session **`.vtt`** file (usually under a dated folder such as `03-Day-28Mar26/`):
 
 1. **Read and understand** the transcript — for long files, work in logical chunks (or by timestamp sections) so coverage is faithful; note speaker/topic shifts where helpful.
 2. **Incorporate** that understanding into that folder’s **`Notes.md`** — merge with existing content, fix gaps, preserve structure; **create `Notes.md`** if it is missing and the folder is a session folder.

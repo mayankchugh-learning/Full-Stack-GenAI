@@ -10,55 +10,55 @@ window.BOOTCAMP_SESSION_QUIZ = {
     {
       id: "15mar26",
       title: "15 Mar — Induction & logistics",
-      folder: "15Mar26",
+      folder: "01-Day-15Mar26",
       status: "live",
     },
     {
       id: "22mar26",
       title: "22 Mar — UV, environments & GenAI intro",
-      folder: "22Mar26",
+      folder: "02-Day-22Mar26",
       status: "live",
     },
     {
       id: "28mar26",
       title: "28 Mar — Roadmap, platform & modern route",
-      folder: "28Mar26",
+      folder: "03-Day-28Mar26",
       status: "live",
     },
     {
       id: "29mar26",
       title: "29 Mar — Encoding & embedding (definitions)",
-      folder: "29Mar26",
+      folder: "04-Day-29Mar26",
       status: "live",
     },
     {
       id: "04apr26",
       title: "4 Apr — Encoding & embedding (Part 1)",
-      folder: "04Apr26",
+      folder: "05-Day-04Apr26",
       status: "live",
     },
     {
       id: "05apr26",
       title: "5 Apr — TF-IDF, Word2Vec thread & assignment",
-      folder: "05Apr26",
+      folder: "06-Day-05Apr26",
       status: "live",
     },
     {
       id: "09apr26",
       title: "9 Apr — Session folder (bridge review)",
-      folder: "09Apr26",
+      folder: "07-Day-09Apr26",
       status: "live",
     },
     {
       id: "11apr26",
       title: "11 Apr — Word2Vec (CBOW & skip-gram)",
-      folder: "11Apr26",
+      folder: "08-Day-11Apr26",
       status: "live",
     },
     {
       id: "12apr26",
       title: "12 Apr — Classical & custom Word2Vec notebooks",
-      folder: "12Apr26",
+      folder: "09-Day-12Apr26",
       status: "live",
     },
     {
@@ -70,7 +70,7 @@ window.BOOTCAMP_SESSION_QUIZ = {
     {
       id: "18apr26",
       title: "18 Apr — SOTA embeddings & transformer bridge",
-      folder: "18Apr26",
+      folder: "10-Day-18Apr26",
       status: "live",
     },
     {

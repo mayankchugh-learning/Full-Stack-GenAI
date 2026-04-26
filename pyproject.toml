@@ -1,7 +1,7 @@
 [project]
 name = "full-stack-genai-bootcamp-notes"
 version = "0.1.0"
-description = "Encoding + Word2Vec notebooks (04Apr26, 12Apr26); use with uv at repo root."
+description = "Encoding + Word2Vec notebooks (05-Day-04Apr26, 09-Day-12Apr26); use with uv at repo root."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
