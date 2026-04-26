@@ -36,6 +36,7 @@ Use this file as the **single place** to track whether each session transcript e
 | `12Apr26` | `m_Recording.transcript (1).vtt` | [x] | [`Notes.md`](12Apr26/Notes.md) | [x] | [x] |
 | `18Apr26` | `_Recording.transcript.vtt` | [x] | [`Notes.md`](18Apr26/Notes.md) | [x] | [x] |
 | `19Apr26` | `Recording.transcript.vtt` | [x] | [`Notes.md`](19Apr26/Notes.md) | [x] | [x] |
+| `25Ap26` | `Recording.transcript_.vtt` | [x] | [`Notes.md`](25Ap26/Notes.md) | [x] | [x] |
 
 ### Timing extraction snapshot (session + Q&A split)
 
@@ -51,6 +52,7 @@ Use this file as the **single place** to track whether each session transcript e
 | `12Apr26` | `00:06:30.020` | `03:56:03.860` | `04:04:20.460` | `04:07:57.949` | `00:03:37.489` |
 | `18Apr26` | `00:04:21.060` | `02:57:56.630` | `03:09:38.770` | `04:51:56.300` | `01:42:17.530` |
 | `19Apr26` | `00:07:25.020` | `02:23:34.000` | `02:28:34.000` | `03:47:12.000` | `01:18:38.000` |
+| `25Ap26` | `00:08:24.140` | `02:42:00.820` | `02:42:00.820` | `04:08:24.640` | `01:26:23.820` |
 
 Timing values above were refreshed from local `.vtt` files on 2026-04-25 and mirrored into each session `Notes.md`.
 

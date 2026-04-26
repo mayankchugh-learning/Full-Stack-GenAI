@@ -39,6 +39,7 @@ Sorted **by date ascending**, then non-dated.
 | `12Apr26` | 8 | ~35 MB | Word2Vec notebooks, notes, PDFs, `data/` stories |
 | `18Apr26` | 14 | varies | Class 08 SOTA embeddings assets (notebook copies, PDFs, images, notes/checklist, transcript) |
 | `19Apr26` | 5 | ~8 MB | Class 09 intro-transformer session (Notion + handwritten PDFs, notes/checklist, transcript) |
+| `25Ap26` | 4 | ~7 MB | Class 10 handwritten notes PDF + transcript + notes/checklist |
 | `Assignment-01-Text_Encoding` | 1 | tiny | Assignment PDF |
 
 ---
@@ -158,6 +159,16 @@ Empty (no tracked files in inventory snapshot).
 | `Notes.md`, `CHECKLIST.md` | Notes + checklist |
 | `Class-09-19-Apr-Notion-Notes.pdf`, `Class-09-19-Apr-Handwritten-Notes.pdf` | PDF |
 | `Recording.transcript.vtt` | WebVTT |
+
+---
+
+## `25Ap26` — April 25 session (Class 10)
+
+| File | Type |
+|------|------|
+| `Notes.md`, `CHECKLIST.md` | Notes + checklist |
+| `Class-10-25-Apr-Handwritten-notes.pdf` | PDF (handwritten/scanned board notes) |
+| `Recording.transcript_.vtt` | WebVTT |
 
 ---
 

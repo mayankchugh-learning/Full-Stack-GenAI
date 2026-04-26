@@ -342,6 +342,30 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 ---
 
+## `25Ap26` — Class 10 materials
+
+**Files**
+
+- [x] [`CHECKLIST.md`](25Ap26/CHECKLIST.md)
+- [x] [`Notes.md`](25Ap26/Notes.md)
+- [x] [`Class-10-25-Apr-Handwritten-notes.pdf`](25Ap26/Class-10-25-Apr-Handwritten-notes.pdf)
+- [x] `Recording.transcript_.vtt` _(local; `*.vtt` gitignored)_
+
+**Mastery tasks**
+
+- [ ] Name the session topic in one line after reviewing the PDF + transcript.
+- [ ] Re-explain the 5 key encoder topics from memory: positional encoding, self-attention, layer normalization, residual connection, FFN.
+- [ ] Write one concrete example each for residual connection and positional encoding.
+- [ ] **Session understanding:** Read [`Notes.md`](25Ap26/Notes.md) until you can summarize the session without source files.
+
+**`.vtt` -> notes (keep original `.vtt`)**
+
+| Original `.vtt` | Your notes file | Converted? | You confirm done |
+|-----------------|-----------------|------------|-------------------|
+| `Recording.transcript_.vtt` | [`Notes.md`](25Ap26/Notes.md) | [x] | [x] |
+
+---
+
 ## `Assignment-01-Text_Encoding`
 
 **Files**
