@@ -366,6 +366,30 @@ Check boxes as you finish items. For **`.vtt` files**: keep the original in the 
 
 ---
 
+## `13-Day-26Apr26` — April 26 session (Class continuation)
+
+**Files**
+
+- [x] [`CHECKLIST.md`](13-Day-26Apr26/CHECKLIST.md)
+- [x] [`Notes.md`](13-Day-26Apr26/Notes.md)
+- [x] [`Class-10-25-Apr-Handwritten-notes.pdf`](13-Day-26Apr26/Class-10-25-Apr-Handwritten-notes.pdf)
+- [x] `Recording.transcript.vtt` _(local; `*.vtt` gitignored)_
+
+**Mastery tasks**
+
+- [ ] Name the session topic in one line after reviewing transcript + notes.
+- [ ] Re-explain positional encoding from memory with one concrete token-position example.
+- [ ] Summarize why transformer fundamentals are taught before practicals in this course flow.
+- [ ] **Session understanding:** Read [`Notes.md`](13-Day-26Apr26/Notes.md) until you can summarize the session without source files.
+
+**`.vtt` -> notes (keep original `.vtt`)**
+
+| Original `.vtt` | Your notes file | Converted? | You confirm done |
+|-----------------|-----------------|------------|-------------------|
+| `Recording.transcript.vtt` | [`Notes.md`](13-Day-26Apr26/Notes.md) | [x] | [x] |
+
+---
+
 ## `Assignment-01-Text_Encoding`
 
 **Files**

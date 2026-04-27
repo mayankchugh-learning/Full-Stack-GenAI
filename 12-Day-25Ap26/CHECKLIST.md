@@ -14,10 +14,10 @@ Mirror of this folder's section in [`LEARNING_CHECKLIST.md`](../LEARNING_CHECKLI
 
 ## Mastery tasks
 
-- [ ] Name the session topic in one line after reviewing the PDF + transcript.
+- [x] Name the session topic in one line after reviewing the PDF + transcript: Transformer internals (encoder stack focus).
 - [ ] Re-explain the 5 key encoder topics from memory: positional encoding, self-attention, layer normalization, residual connection, FFN.
 - [ ] Write one concrete example each for: residual connection and positional encoding.
-- [ ] **Session understanding:** Read [`Notes.md`](Notes.md) until you can summarize this session without source files.
+- [x] **Session understanding:** Read [`Notes.md`](Notes.md) until you can summarize this session without source files.
 
 ## `.vtt` -> notes (keep original `.vtt`)
 

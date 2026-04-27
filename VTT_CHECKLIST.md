@@ -37,6 +37,7 @@ Use this file as the **single place** to track whether each session transcript e
 | `10-Day-18Apr26` | `_Recording.transcript.vtt` | [x] | [`Notes.md`](10-Day-18Apr26/Notes.md) | [x] | [x] |
 | `11-Day-19Apr26` | `Recording.transcript.vtt` | [x] | [`Notes.md`](11-Day-19Apr26/Notes.md) | [x] | [x] |
 | `12-Day-25Ap26` | `Recording.transcript_.vtt` | [x] | [`Notes.md`](12-Day-25Ap26/Notes.md) | [x] | [x] |
+| `13-Day-26Apr26` | `Recording.transcript.vtt` | [x] | [`Notes.md`](13-Day-26Apr26/Notes.md) | [x] | [x] |
 
 ### Timing extraction snapshot (session + Q&A split)
 
@@ -53,10 +54,11 @@ Use this file as the **single place** to track whether each session transcript e
 | `10-Day-18Apr26` | `00:04:21.060` | `02:57:56.630` | `03:09:38.770` | `04:51:56.300` | `01:42:17.530` |
 | `11-Day-19Apr26` | `00:07:25.020` | `02:23:34.000` | `02:28:34.000` | `03:47:12.000` | `01:18:38.000` |
 | `12-Day-25Ap26` | `00:08:24.140` | `02:35:00.820` | `02:35:00.820` | `04:08:24.640` | `01:33:23.820` |
+| `13-Day-26Apr26` | `00:07:45.990` | `02:33:34.870` | `02:43:27.790` | `04:24:50.890` | `01:41:23.100` |
 
-Timing values above were refreshed from local `.vtt` files on 2026-04-25 and mirrored into each session `Notes.md`.
+Timing values above were refreshed from local `.vtt` files on 2026-04-28 and mirrored into each session `Notes.md`.
 
-**On-disk column** — last full scan: 2026-04-25 (ten dated `.vtt` files through `11-Day-19Apr26`). Re-check after clone or if you add/remove files.
+**On-disk column** — last full scan: 2026-04-28 (eleven dated `.vtt` files through `13-Day-26Apr26`). Re-check after clone or if you add/remove files.
 
 ---
 

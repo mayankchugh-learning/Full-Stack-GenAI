@@ -40,6 +40,7 @@ Sorted **by date ascending**, then non-dated.
 | `10-Day-18Apr26` | 14 | varies | Class 08 SOTA embeddings assets (notebook copies, PDFs, images, notes/checklist, transcript) |
 | `11-Day-19Apr26` | 5 | ~8 MB | Class 09 intro-transformer session (Notion + handwritten PDFs, notes/checklist, transcript) |
 | `12-Day-25Ap26` | 4 | ~7 MB | Class 10 handwritten notes PDF + transcript + notes/checklist |
+| `13-Day-26Apr26` | 4 | ~7 MB | Class continuation (transformer internals) PDF + transcript + notes/checklist |
 | `Assignment-01-Text_Encoding` | 1 | tiny | Assignment PDF |
 
 ---
@@ -169,6 +170,16 @@ Empty (no tracked files in inventory snapshot).
 | `Notes.md`, `CHECKLIST.md` | Notes + checklist |
 | `Class-10-25-Apr-Handwritten-notes.pdf` | PDF (handwritten/scanned board notes) |
 | `Recording.transcript_.vtt` | WebVTT |
+
+---
+
+## `13-Day-26Apr26` — April 26 session (Class continuation)
+
+| File | Type |
+|------|------|
+| `Notes.md`, `CHECKLIST.md` | Notes + checklist |
+| `Class-10-25-Apr-Handwritten-notes.pdf` | PDF (handwritten/scanned board notes) |
+| `Recording.transcript.vtt` | WebVTT |
 
 ---
 
